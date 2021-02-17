@@ -1,0 +1,17 @@
+C:\Users\Amit Raj\source\repos\Ghostly1\Ghostly.Utility\obj\Debug\Ghostly.Utility.csproj.CoreCompileInputs.cache
+C:\Users\Amit Raj\source\repos\Ghostly1\Ghostly.Utility\bin\Debug\Ghostly.Utility.dll
+C:\Users\Amit Raj\source\repos\Ghostly1\Ghostly.Utility\bin\Debug\Ghostly.Utility.pdb
+C:\Users\Amit Raj\source\repos\Ghostly1\Ghostly.Utility\bin\Debug\Ghostly.Business.dll
+C:\Users\Amit Raj\source\repos\Ghostly1\Ghostly.Utility\bin\Debug\Ghostly.Models.dll
+C:\Users\Amit Raj\source\repos\Ghostly1\Ghostly.Utility\bin\Debug\Ghostly.DAL.SQL.dll
+C:\Users\Amit Raj\source\repos\Ghostly1\Ghostly.Utility\bin\Debug\EntityFramework.dll
+C:\Users\Amit Raj\source\repos\Ghostly1\Ghostly.Utility\bin\Debug\Ghostly.Business.pdb
+C:\Users\Amit Raj\source\repos\Ghostly1\Ghostly.Utility\bin\Debug\Ghostly.Business.dll.config
+C:\Users\Amit Raj\source\repos\Ghostly1\Ghostly.Utility\bin\Debug\Ghostly.Models.pdb
+C:\Users\Amit Raj\source\repos\Ghostly1\Ghostly.Utility\bin\Debug\Ghostly.DAL.SQL.pdb
+C:\Users\Amit Raj\source\repos\Ghostly1\Ghostly.Utility\bin\Debug\Ghostly.DAL.SQL.dll.config
+C:\Users\Amit Raj\source\repos\Ghostly1\Ghostly.Utility\bin\Debug\EntityFramework.xml
+C:\Users\Amit Raj\source\repos\Ghostly1\Ghostly.Utility\obj\Debug\Ghostly.Utility.csprojAssemblyReference.cache
+C:\Users\Amit Raj\source\repos\Ghostly1\Ghostly.Utility\obj\Debug\Ghostly.Utility.csproj.CopyComplete
+C:\Users\Amit Raj\source\repos\Ghostly1\Ghostly.Utility\obj\Debug\Ghostly.Utility.dll
+C:\Users\Amit Raj\source\repos\Ghostly1\Ghostly.Utility\obj\Debug\Ghostly.Utility.pdb

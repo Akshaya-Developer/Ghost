@@ -1,0 +1,1044 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="GhostlyDBModelStoreContainer" CdmEntityContainer="GhostlyDBEntities">
+    <EntitySetMapping Name="aspnet_Applications">
+      <EntityTypeMapping TypeName="GhostlyDBModel.aspnet_Applications">
+        <MappingFragment StoreEntitySet="aspnet_Applications">
+          <ScalarProperty Name="ApplicationName" ColumnName="ApplicationName" />
+          <ScalarProperty Name="LoweredApplicationName" ColumnName="LoweredApplicationName" />
+          <ScalarProperty Name="ApplicationId" ColumnName="ApplicationId" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="aspnet_Membership">
+      <EntityTypeMapping TypeName="GhostlyDBModel.aspnet_Membership">
+        <MappingFragment StoreEntitySet="aspnet_Membership">
+          <ScalarProperty Name="ApplicationId" ColumnName="ApplicationId" />
+          <ScalarProperty Name="UserId" ColumnName="UserId" />
+          <ScalarProperty Name="Password" ColumnName="Password" />
+          <ScalarProperty Name="PasswordFormat" ColumnName="PasswordFormat" />
+          <ScalarProperty Name="PasswordSalt" ColumnName="PasswordSalt" />
+          <ScalarProperty Name="MobilePIN" ColumnName="MobilePIN" />
+          <ScalarProperty Name="Email" ColumnName="Email" />
+          <ScalarProperty Name="LoweredEmail" ColumnName="LoweredEmail" />
+          <ScalarProperty Name="PasswordQuestion" ColumnName="PasswordQuestion" />
+          <ScalarProperty Name="PasswordAnswer" ColumnName="PasswordAnswer" />
+          <ScalarProperty Name="IsApproved" ColumnName="IsApproved" />
+          <ScalarProperty Name="IsLockedOut" ColumnName="IsLockedOut" />
+          <ScalarProperty Name="CreateDate" ColumnName="CreateDate" />
+          <ScalarProperty Name="LastLoginDate" ColumnName="LastLoginDate" />
+          <ScalarProperty Name="LastPasswordChangedDate" ColumnName="LastPasswordChangedDate" />
+          <ScalarProperty Name="LastLockoutDate" ColumnName="LastLockoutDate" />
+          <ScalarProperty Name="FailedPasswordAttemptCount" ColumnName="FailedPasswordAttemptCount" />
+          <ScalarProperty Name="FailedPasswordAttemptWindowStart" ColumnName="FailedPasswordAttemptWindowStart" />
+          <ScalarProperty Name="FailedPasswordAnswerAttemptCount" ColumnName="FailedPasswordAnswerAttemptCount" />
+          <ScalarProperty Name="FailedPasswordAnswerAttemptWindowStart" ColumnName="FailedPasswordAnswerAttemptWindowStart" />
+          <ScalarProperty Name="Comment" ColumnName="Comment" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="aspnet_Roles">
+      <EntityTypeMapping TypeName="GhostlyDBModel.aspnet_Roles">
+        <MappingFragment StoreEntitySet="aspnet_Roles">
+          <ScalarProperty Name="ApplicationId" ColumnName="ApplicationId" />
+          <ScalarProperty Name="RoleId" ColumnName="RoleId" />
+          <ScalarProperty Name="RoleName" ColumnName="RoleName" />
+          <ScalarProperty Name="LoweredRoleName" ColumnName="LoweredRoleName" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="aspnet_SchemaVersions">
+      <EntityTypeMapping TypeName="GhostlyDBModel.aspnet_SchemaVersions">
+        <MappingFragment StoreEntitySet="aspnet_SchemaVersions">
+          <ScalarProperty Name="Feature" ColumnName="Feature" />
+          <ScalarProperty Name="CompatibleSchemaVersion" ColumnName="CompatibleSchemaVersion" />
+          <ScalarProperty Name="IsCurrentVersion" ColumnName="IsCurrentVersion" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="aspnet_Sessions">
+      <EntityTypeMapping TypeName="GhostlyDBModel.aspnet_Sessions">
+        <MappingFragment StoreEntitySet="aspnet_Sessions">
+          <ScalarProperty Name="SessionId" ColumnName="SessionId" />
+          <ScalarProperty Name="ApplicationName" ColumnName="ApplicationName" />
+          <ScalarProperty Name="Created" ColumnName="Created" />
+          <ScalarProperty Name="Expires" ColumnName="Expires" />
+          <ScalarProperty Name="LockDate" ColumnName="LockDate" />
+          <ScalarProperty Name="LockId" ColumnName="LockId" />
+          <ScalarProperty Name="Timeout" ColumnName="Timeout" />
+          <ScalarProperty Name="Locked" ColumnName="Locked" />
+          <ScalarProperty Name="SessionItems" ColumnName="SessionItems" />
+          <ScalarProperty Name="Flags" ColumnName="Flags" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="aspnet_Users">
+      <EntityTypeMapping TypeName="GhostlyDBModel.aspnet_Users">
+        <MappingFragment StoreEntitySet="aspnet_Users">
+          <ScalarProperty Name="ApplicationId" ColumnName="ApplicationId" />
+          <ScalarProperty Name="UserId" ColumnName="UserId" />
+          <ScalarProperty Name="UserName" ColumnName="UserName" />
+          <ScalarProperty Name="LoweredUserName" ColumnName="LoweredUserName" />
+          <ScalarProperty Name="MobileAlias" ColumnName="MobileAlias" />
+          <ScalarProperty Name="IsAnonymous" ColumnName="IsAnonymous" />
+          <ScalarProperty Name="LastActivityDate" ColumnName="LastActivityDate" />
+          <ScalarProperty Name="OperatorId" ColumnName="OperatorId" />
+          <ScalarProperty Name="OperatorLocationId" ColumnName="OperatorLocationId" />
+          <ScalarProperty Name="SupplierId" ColumnName="SupplierId" />
+          <ScalarProperty Name="SupplierLocationId" ColumnName="SupplierLocationId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CommercialIngredients">
+      <EntityTypeMapping TypeName="GhostlyDBModel.CommercialIngredient">
+        <MappingFragment StoreEntitySet="CommercialIngredients">
+          <ScalarProperty Name="CommercialIngredientId" ColumnName="CommercialIngredientId" />
+          <ScalarProperty Name="UniversalIngredientId" ColumnName="UniversalIngredientId" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="Category" ColumnName="Category" />
+          <ScalarProperty Name="Type" ColumnName="Type" />
+          <ScalarProperty Name="PerishabilityIndexHours" ColumnName="PerishabilityIndexHours" />
+          <ScalarProperty Name="PerishabilityIndexDays" ColumnName="PerishabilityIndexDays" />
+          <ScalarProperty Name="PerishabilityIndexMonths" ColumnName="PerishabilityIndexMonths" />
+          <ScalarProperty Name="NetWeight" ColumnName="NetWeight" />
+          <ScalarProperty Name="UniteType" ColumnName="UniteType" />
+          <ScalarProperty Name="Brand" ColumnName="Brand" />
+          <ScalarProperty Name="BarCode" ColumnName="BarCode" />
+          <ScalarProperty Name="date_creation" ColumnName="date_creation" />
+          <ScalarProperty Name="created_by" ColumnName="created_by" />
+          <ScalarProperty Name="modified_by" ColumnName="modified_by" />
+          <ScalarProperty Name="date_modified" ColumnName="date_modified" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Conversions">
+      <EntityTypeMapping TypeName="GhostlyDBModel.Conversion">
+        <MappingFragment StoreEntitySet="Conversions">
+          <ScalarProperty Name="ConversionId" ColumnName="ConversionId" />
+          <ScalarProperty Name="IngredientId" ColumnName="IngredientId" />
+          <ScalarProperty Name="Unit" ColumnName="Unit" />
+          <ScalarProperty Name="UnitType" ColumnName="UnitType" />
+          <ScalarProperty Name="NetWeight" ColumnName="NetWeight" />
+          <ScalarProperty Name="date_creation" ColumnName="date_creation" />
+          <ScalarProperty Name="created_by" ColumnName="created_by" />
+          <ScalarProperty Name="modified_by" ColumnName="modified_by" />
+          <ScalarProperty Name="date_modified" ColumnName="date_modified" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="DeliveryChannels">
+      <EntityTypeMapping TypeName="GhostlyDBModel.DeliveryChannel">
+        <MappingFragment StoreEntitySet="DeliveryChannels">
+          <ScalarProperty Name="ChannelId" ColumnName="ChannelId" />
+          <ScalarProperty Name="ChannelName" ColumnName="ChannelName" />
+          <ScalarProperty Name="ChannelCommissionRate" ColumnName="ChannelCommissionRate" />
+          <ScalarProperty Name="Type" ColumnName="Type" />
+          <ScalarProperty Name="date_creation" ColumnName="date_creation" />
+          <ScalarProperty Name="created_by" ColumnName="created_by" />
+          <ScalarProperty Name="modified_by" ColumnName="modified_by" />
+          <ScalarProperty Name="date_modified" ColumnName="date_modified" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Ingredients">
+      <EntityTypeMapping TypeName="GhostlyDBModel.Ingredient">
+        <MappingFragment StoreEntitySet="Ingredients">
+          <ScalarProperty Name="IngredientId" ColumnName="IngredientId" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="Category" ColumnName="Category" />
+          <ScalarProperty Name="Type" ColumnName="Type" />
+          <ScalarProperty Name="OperatorId" ColumnName="OperatorId" />
+          <ScalarProperty Name="OperatorLocationId" ColumnName="OperatorLocationId" />
+          <ScalarProperty Name="CommercialIngredientId" ColumnName="CommercialIngredientId" />
+          <ScalarProperty Name="ProductionTimeHours" ColumnName="ProductionTimeHours" />
+          <ScalarProperty Name="ProductionTimeDays" ColumnName="ProductionTimeDays" />
+          <ScalarProperty Name="ProductionTimeMonths" ColumnName="ProductionTimeMonths" />
+          <ScalarProperty Name="PerishabilityIndexHours" ColumnName="PerishabilityIndexHours" />
+          <ScalarProperty Name="PerishabilityIndexDays" ColumnName="PerishabilityIndexDays" />
+          <ScalarProperty Name="PerishabilityIndexMonths" ColumnName="PerishabilityIndexMonths" />
+          <ScalarProperty Name="StorageCapacityInLiquid" ColumnName="StorageCapacityInLiquid" />
+          <ScalarProperty Name="StorageCapacityInVolume" ColumnName="StorageCapacityInVolume" />
+          <ScalarProperty Name="StorageUsedCapacityLiquid" ColumnName="StorageUsedCapacityLiquid" />
+          <ScalarProperty Name="StorageUsedCapacityVolume" ColumnName="StorageUsedCapacityVolume" />
+          <ScalarProperty Name="CurrentPrice" ColumnName="CurrentPrice" />
+          <ScalarProperty Name="LastCost" ColumnName="LastCost" />
+          <ScalarProperty Name="date_creation" ColumnName="date_creation" />
+          <ScalarProperty Name="created_by" ColumnName="created_by" />
+          <ScalarProperty Name="modified_by" ColumnName="modified_by" />
+          <ScalarProperty Name="date_modified" ColumnName="date_modified" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="IngredientsForStandardRecipes">
+      <EntityTypeMapping TypeName="GhostlyDBModel.IngredientsForStandardRecipe">
+        <MappingFragment StoreEntitySet="IngredientsForStandardRecipes">
+          <ScalarProperty Name="StandardIngredientId" ColumnName="StandardIngredientId" />
+          <ScalarProperty Name="StandardRecipeId" ColumnName="StandardRecipeId" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="Category" ColumnName="Category" />
+          <ScalarProperty Name="Type" ColumnName="Type" />
+          <ScalarProperty Name="UniversalIngredientId" ColumnName="UniversalIngredientId" />
+          <ScalarProperty Name="ProductionTimeHours" ColumnName="ProductionTimeHours" />
+          <ScalarProperty Name="ProductionTimeDays" ColumnName="ProductionTimeDays" />
+          <ScalarProperty Name="ProductionTimeMonths" ColumnName="ProductionTimeMonths" />
+          <ScalarProperty Name="PerishabilityIndexHours" ColumnName="PerishabilityIndexHours" />
+          <ScalarProperty Name="PerishabilityIndexDays" ColumnName="PerishabilityIndexDays" />
+          <ScalarProperty Name="PerishabilityIndexMonths" ColumnName="PerishabilityIndexMonths" />
+          <ScalarProperty Name="StorageCapacityInLiquid" ColumnName="StorageCapacityInLiquid" />
+          <ScalarProperty Name="StorageCapacityInVolume" ColumnName="StorageCapacityInVolume" />
+          <ScalarProperty Name="date_creation" ColumnName="date_creation" />
+          <ScalarProperty Name="created_by" ColumnName="created_by" />
+          <ScalarProperty Name="modified_by" ColumnName="modified_by" />
+          <ScalarProperty Name="date_modified" ColumnName="date_modified" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Modifiers">
+      <EntityTypeMapping TypeName="GhostlyDBModel.Modifier">
+        <MappingFragment StoreEntitySet="Modifiers">
+          <ScalarProperty Name="ModifierId" ColumnName="ModifierId" />
+          <ScalarProperty Name="RecipeId" ColumnName="RecipeId" />
+          <ScalarProperty Name="IngredientId" ColumnName="IngredientId" />
+          <ScalarProperty Name="Quantity" ColumnName="Quantity" />
+          <ScalarProperty Name="UnitType" ColumnName="UnitType" />
+          <ScalarProperty Name="OrderType" ColumnName="OrderType" />
+          <ScalarProperty Name="CurrentPrice" ColumnName="CurrentPrice" />
+          <ScalarProperty Name="LastCost" ColumnName="LastCost" />
+          <ScalarProperty Name="date_creation" ColumnName="date_creation" />
+          <ScalarProperty Name="created_by" ColumnName="created_by" />
+          <ScalarProperty Name="modified_by" ColumnName="modified_by" />
+          <ScalarProperty Name="date_modified" ColumnName="date_modified" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="norm_Brands">
+      <EntityTypeMapping TypeName="GhostlyDBModel.norm_Brands">
+        <MappingFragment StoreEntitySet="norm_Brands">
+          <ScalarProperty Name="BrandId" ColumnName="BrandId" />
+          <ScalarProperty Name="BrandName" ColumnName="BrandName" />
+          <ScalarProperty Name="BrandLogo" ColumnName="BrandLogo" />
+          <ScalarProperty Name="BrandRegion" ColumnName="BrandRegion" />
+          <ScalarProperty Name="BrandCountry" ColumnName="BrandCountry" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="norm_Countries">
+      <EntityTypeMapping TypeName="GhostlyDBModel.norm_Countries">
+        <MappingFragment StoreEntitySet="norm_Countries">
+          <ScalarProperty Name="CountryId" ColumnName="CountryId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="norm_CountriesInRegions">
+      <EntityTypeMapping TypeName="GhostlyDBModel.norm_CountriesInRegions">
+        <MappingFragment StoreEntitySet="norm_CountriesInRegions">
+          <ScalarProperty Name="CountryRegion" ColumnName="CountryRegion" />
+          <ScalarProperty Name="CountryId" ColumnName="CountryId" />
+          <ScalarProperty Name="RegionId" ColumnName="RegionId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="norm_IngredientCategories">
+      <EntityTypeMapping TypeName="GhostlyDBModel.norm_IngredientCategories">
+        <MappingFragment StoreEntitySet="norm_IngredientCategories">
+          <ScalarProperty Name="IngredientCategoryId" ColumnName="IngredientCategoryId" />
+          <ScalarProperty Name="IngredientCategoryDesc" ColumnName="IngredientCategoryDesc" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="norm_IngredientType">
+      <EntityTypeMapping TypeName="GhostlyDBModel.norm_IngredientType">
+        <MappingFragment StoreEntitySet="norm_IngredientType">
+          <ScalarProperty Name="IngredientTypeID" ColumnName="IngredientTypeID" />
+          <ScalarProperty Name="IngredientTypedsec" ColumnName="IngredientTypedsec" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="norm_OperatorCategories">
+      <EntityTypeMapping TypeName="GhostlyDBModel.norm_OperatorCategories">
+        <MappingFragment StoreEntitySet="norm_OperatorCategories">
+          <ScalarProperty Name="OperatorCategoryId" ColumnName="OperatorCategoryId" />
+          <ScalarProperty Name="OperatorCategoryDesc" ColumnName="OperatorCategoryDesc" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="norm_OperatorSubCategories">
+      <EntityTypeMapping TypeName="GhostlyDBModel.norm_OperatorSubCategories">
+        <MappingFragment StoreEntitySet="norm_OperatorSubCategories">
+          <ScalarProperty Name="OperatorSubCategoryId" ColumnName="OperatorSubCategoryId" />
+          <ScalarProperty Name="OperatorSubCategoryDesc" ColumnName="OperatorSubCategoryDesc" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="norm_OrderTypes">
+      <EntityTypeMapping TypeName="GhostlyDBModel.norm_OrderTypes">
+        <MappingFragment StoreEntitySet="norm_OrderTypes">
+          <ScalarProperty Name="OrderTypeId" ColumnName="OrderTypeId" />
+          <ScalarProperty Name="OrderTypedsec" ColumnName="OrderTypedsec" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="norm_Regions">
+      <EntityTypeMapping TypeName="GhostlyDBModel.norm_Regions">
+        <MappingFragment StoreEntitySet="norm_Regions">
+          <ScalarProperty Name="RegionId" ColumnName="RegionId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="norm_SupplierCategories">
+      <EntityTypeMapping TypeName="GhostlyDBModel.norm_SupplierCategories">
+        <MappingFragment StoreEntitySet="norm_SupplierCategories">
+          <ScalarProperty Name="SupplierCategoryId" ColumnName="SupplierCategoryId" />
+          <ScalarProperty Name="SupplierCategoryDesc" ColumnName="SupplierCategoryDesc" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="norm_SupplierSubCategories">
+      <EntityTypeMapping TypeName="GhostlyDBModel.norm_SupplierSubCategories">
+        <MappingFragment StoreEntitySet="norm_SupplierSubCategories">
+          <ScalarProperty Name="SupplierSubCategoryId" ColumnName="SupplierSubCategoryId" />
+          <ScalarProperty Name="SupplierSubCategoryDesc" ColumnName="SupplierSubCategoryDesc" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="norm_UnitTypes">
+      <EntityTypeMapping TypeName="GhostlyDBModel.norm_UnitTypes">
+        <MappingFragment StoreEntitySet="norm_UnitTypes">
+          <ScalarProperty Name="UnitTypeId" ColumnName="UnitTypeId" />
+          <ScalarProperty Name="UnitTypedsec" ColumnName="UnitTypedsec" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="norm_VariationTypes">
+      <EntityTypeMapping TypeName="GhostlyDBModel.norm_VariationTypes">
+        <MappingFragment StoreEntitySet="norm_VariationTypes">
+          <ScalarProperty Name="VariationTypeId" ColumnName="VariationTypeId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Operators">
+      <EntityTypeMapping TypeName="GhostlyDBModel.Operator">
+        <MappingFragment StoreEntitySet="Operators">
+          <ScalarProperty Name="OperatorId" ColumnName="OperatorId" />
+          <ScalarProperty Name="OperatorNameFirm" ColumnName="OperatorNameFirm" />
+          <ScalarProperty Name="OperatorVATid" ColumnName="OperatorVATid" />
+          <ScalarProperty Name="OperatorMainContact" ColumnName="OperatorMainContact" />
+          <ScalarProperty Name="OperatorEmail" ColumnName="OperatorEmail" />
+          <ScalarProperty Name="OperatorTelephone" ColumnName="OperatorTelephone" />
+          <ScalarProperty Name="OperatorCity" ColumnName="OperatorCity" />
+          <ScalarProperty Name="OperatorAddressLine1" ColumnName="OperatorAddressLine1" />
+          <ScalarProperty Name="OperatorAddressLine2" ColumnName="OperatorAddressLine2" />
+          <ScalarProperty Name="OperatorCountry" ColumnName="OperatorCountry" />
+          <ScalarProperty Name="OperatorStateOrProvince" ColumnName="OperatorStateOrProvince" />
+          <ScalarProperty Name="OperatorRegion" ColumnName="OperatorRegion" />
+          <ScalarProperty Name="OperatorCategory" ColumnName="OperatorCategory" />
+          <ScalarProperty Name="OperatorSubCategory" ColumnName="OperatorSubCategory" />
+          <ScalarProperty Name="OperatorGhostlyClassification" ColumnName="OperatorGhostlyClassification" />
+          <ScalarProperty Name="StorageCapacityLiquids" ColumnName="StorageCapacityLiquids" />
+          <ScalarProperty Name="StorageCapacityVolume" ColumnName="StorageCapacityVolume" />
+          <ScalarProperty Name="StorageUsedCapacityLiquids" ColumnName="StorageUsedCapacityLiquids" />
+          <ScalarProperty Name="StorageUsedCapacityVolume" ColumnName="StorageUsedCapacityVolume" />
+          <ScalarProperty Name="date_creation" ColumnName="date_creation" />
+          <ScalarProperty Name="created_by" ColumnName="created_by" />
+          <ScalarProperty Name="modified_by" ColumnName="modified_by" />
+          <ScalarProperty Name="date_modified" ColumnName="date_modified" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Operators_Locations">
+      <EntityTypeMapping TypeName="GhostlyDBModel.Operators_Locations">
+        <MappingFragment StoreEntitySet="Operators_Locations">
+          <ScalarProperty Name="OperatorLocationId" ColumnName="OperatorLocationId" />
+          <ScalarProperty Name="OperatorId" ColumnName="OperatorId" />
+          <ScalarProperty Name="LocationName" ColumnName="LocationName" />
+          <ScalarProperty Name="LocationVATid" ColumnName="LocationVATid" />
+          <ScalarProperty Name="LocationMainContact" ColumnName="LocationMainContact" />
+          <ScalarProperty Name="LocationEmail" ColumnName="LocationEmail" />
+          <ScalarProperty Name="LocationTelephone" ColumnName="LocationTelephone" />
+          <ScalarProperty Name="LocationCity" ColumnName="LocationCity" />
+          <ScalarProperty Name="LocationAddressLine1" ColumnName="LocationAddressLine1" />
+          <ScalarProperty Name="LocationAddressLine2" ColumnName="LocationAddressLine2" />
+          <ScalarProperty Name="LocationZIP" ColumnName="LocationZIP" />
+          <ScalarProperty Name="LocationCountry" ColumnName="LocationCountry" />
+          <ScalarProperty Name="LocationStateOrProvince" ColumnName="LocationStateOrProvince" />
+          <ScalarProperty Name="LocationRegion" ColumnName="LocationRegion" />
+          <ScalarProperty Name="LocationCategory" ColumnName="LocationCategory" />
+          <ScalarProperty Name="LocationSubCategory" ColumnName="LocationSubCategory" />
+          <ScalarProperty Name="LocationGhostlyClassification" ColumnName="LocationGhostlyClassification" />
+          <ScalarProperty Name="LocationStorageCapacityLiquids" ColumnName="LocationStorageCapacityLiquids" />
+          <ScalarProperty Name="LocationStorageCapacityVolume" ColumnName="LocationStorageCapacityVolume" />
+          <ScalarProperty Name="LocationStorageUsedCapacityLiquids" ColumnName="LocationStorageUsedCapacityLiquids" />
+          <ScalarProperty Name="LocationStorageUsedCapacityVolume" ColumnName="LocationStorageUsedCapacityVolume" />
+          <ScalarProperty Name="date_creation" ColumnName="date_creation" />
+          <ScalarProperty Name="created_by" ColumnName="created_by" />
+          <ScalarProperty Name="modified_by" ColumnName="modified_by" />
+          <ScalarProperty Name="date_modified" ColumnName="date_modified" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="POI_POR_reconciliation">
+      <EntityTypeMapping TypeName="GhostlyDBModel.POI_POR_reconciliation">
+        <MappingFragment StoreEntitySet="POI_POR_reconciliation">
+          <ScalarProperty Name="ReconciliationRecordId" ColumnName="ReconciliationRecordId" />
+          <ScalarProperty Name="POIid" ColumnName="POIid" />
+          <ScalarProperty Name="PORid" ColumnName="PORid" />
+          <ScalarProperty Name="Date" ColumnName="Date" />
+          <ScalarProperty Name="RequestedQuantity" ColumnName="RequestedQuantity" />
+          <ScalarProperty Name="DeliveredQuantity" ColumnName="DeliveredQuantity" />
+          <ScalarProperty Name="BalanceQuantity" ColumnName="BalanceQuantity" />
+          <ScalarProperty Name="Completed" ColumnName="Completed" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="PriceCostVariations">
+      <EntityTypeMapping TypeName="GhostlyDBModel.PriceCostVariation">
+        <MappingFragment StoreEntitySet="PriceCostVariations">
+          <ScalarProperty Name="PriceCostVarId" ColumnName="PriceCostVarId" />
+          <ScalarProperty Name="ProcessIngredientId" ColumnName="ProcessIngredientId" />
+          <ScalarProperty Name="IngredientId" ColumnName="IngredientId" />
+          <ScalarProperty Name="RecipeIngredientId" ColumnName="RecipeIngredientId" />
+          <ScalarProperty Name="RecipeId" ColumnName="RecipeId" />
+          <ScalarProperty Name="Price" ColumnName="Price" />
+          <ScalarProperty Name="Cost" ColumnName="Cost" />
+          <ScalarProperty Name="Date" ColumnName="Date" />
+          <ScalarProperty Name="POIid" ColumnName="POIid" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ProcessIngredients">
+      <EntityTypeMapping TypeName="GhostlyDBModel.ProcessIngredient">
+        <MappingFragment StoreEntitySet="ProcessIngredients">
+          <ScalarProperty Name="ProcessIngredientId" ColumnName="ProcessIngredientId" />
+          <ScalarProperty Name="IngredientId" ColumnName="IngredientId" />
+          <ScalarProperty Name="RawIngredientId" ColumnName="RawIngredientId" />
+          <ScalarProperty Name="Variation" ColumnName="Variation" />
+          <ScalarProperty Name="VariationType" ColumnName="VariationType" />
+          <ScalarProperty Name="Quantity" ColumnName="Quantity" />
+          <ScalarProperty Name="UnitType" ColumnName="UnitType" />
+          <ScalarProperty Name="CommercialIngredientId" ColumnName="CommercialIngredientId" />
+          <ScalarProperty Name="PerishabilityIndexHours" ColumnName="PerishabilityIndexHours" />
+          <ScalarProperty Name="PerishabilityIndexDays" ColumnName="PerishabilityIndexDays" />
+          <ScalarProperty Name="PerishabilityIndexMonths" ColumnName="PerishabilityIndexMonths" />
+          <ScalarProperty Name="CurrentPrice" ColumnName="CurrentPrice" />
+          <ScalarProperty Name="LastCost" ColumnName="LastCost" />
+          <ScalarProperty Name="date_creation" ColumnName="date_creation" />
+          <ScalarProperty Name="created_by" ColumnName="created_by" />
+          <ScalarProperty Name="modified_by" ColumnName="modified_by" />
+          <ScalarProperty Name="date_modified" ColumnName="date_modified" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="prof_OperatorGhostlyClassification">
+      <EntityTypeMapping TypeName="GhostlyDBModel.prof_OperatorGhostlyClassification">
+        <MappingFragment StoreEntitySet="prof_OperatorGhostlyClassification">
+          <ScalarProperty Name="OperatorGhostlyClassificationId" ColumnName="OperatorGhostlyClassificationId" />
+          <ScalarProperty Name="OperatorGhostlyClassificationDesc" ColumnName="OperatorGhostlyClassificationDesc" />
+          <ScalarProperty Name="Location" ColumnName="Location" />
+          <ScalarProperty Name="Ownership" ColumnName="Ownership" />
+          <ScalarProperty Name="Franchising" ColumnName="Franchising" />
+          <ScalarProperty Name="Menu" ColumnName="Menu" />
+          <ScalarProperty Name="VirtualBrands" ColumnName="VirtualBrands" />
+          <ScalarProperty Name="VeryHighInventoryComplexity" ColumnName="VeryHighInventoryComplexity" />
+          <ScalarProperty Name="HighInventoryComplexity" ColumnName="HighInventoryComplexity" />
+          <ScalarProperty Name="MediumInventoryComplexity" ColumnName="MediumInventoryComplexity" />
+          <ScalarProperty Name="LowInventoryComplexity" ColumnName="LowInventoryComplexity" />
+          <ScalarProperty Name="Seasonal" ColumnName="Seasonal" />
+          <ScalarProperty Name="Interchangeable" ColumnName="Interchangeable" />
+          <ScalarProperty Name="MinimumExchange" ColumnName="MinimumExchange" />
+          <ScalarProperty Name="NoExchange" ColumnName="NoExchange" />
+          <ScalarProperty Name="ComplexCookingProcess" ColumnName="ComplexCookingProcess" />
+          <ScalarProperty Name="SemiComplexCookingProcess" ColumnName="SemiComplexCookingProcess" />
+          <ScalarProperty Name="LowComplexCookingProcess" ColumnName="LowComplexCookingProcess" />
+          <ScalarProperty Name="VeryHighVolumeProvisioning" ColumnName="VeryHighVolumeProvisioning" />
+          <ScalarProperty Name="HighVolumeProvisioning" ColumnName="HighVolumeProvisioning" />
+          <ScalarProperty Name="MediumProvisioning" ColumnName="MediumProvisioning" />
+          <ScalarProperty Name="LowProvisioning" ColumnName="LowProvisioning" />
+          <ScalarProperty Name="date_creation" ColumnName="date_creation" />
+          <ScalarProperty Name="created_by" ColumnName="created_by" />
+          <ScalarProperty Name="modified_by" ColumnName="modified_by" />
+          <ScalarProperty Name="date_modified" ColumnName="date_modified" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="prof_SupplierGhostlyClassification">
+      <EntityTypeMapping TypeName="GhostlyDBModel.prof_SupplierGhostlyClassification">
+        <MappingFragment StoreEntitySet="prof_SupplierGhostlyClassification">
+          <ScalarProperty Name="SupplierSubCategoryId" ColumnName="SupplierSubCategoryId" />
+          <ScalarProperty Name="SupplierSubCategoryDesc" ColumnName="SupplierSubCategoryDesc" />
+          <ScalarProperty Name="date_creation" ColumnName="date_creation" />
+          <ScalarProperty Name="created_by" ColumnName="created_by" />
+          <ScalarProperty Name="modified_by" ColumnName="modified_by" />
+          <ScalarProperty Name="date_modified" ColumnName="date_modified" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="PurchaseOrderInvoices">
+      <EntityTypeMapping TypeName="GhostlyDBModel.PurchaseOrderInvoice">
+        <MappingFragment StoreEntitySet="PurchaseOrderInvoice">
+          <ScalarProperty Name="PurchaseOrderInvoiceId" ColumnName="PurchaseOrderInvoiceId" />
+          <ScalarProperty Name="SupplierId" ColumnName="SupplierId" />
+          <ScalarProperty Name="SupplierLocation" ColumnName="SupplierLocation" />
+          <ScalarProperty Name="OperatorId" ColumnName="OperatorId" />
+          <ScalarProperty Name="OperatorLocationId" ColumnName="OperatorLocationId" />
+          <ScalarProperty Name="InvoiceRef" ColumnName="InvoiceRef" />
+          <ScalarProperty Name="Date" ColumnName="Date" />
+          <ScalarProperty Name="CommercialIngredientId" ColumnName="CommercialIngredientId" />
+          <ScalarProperty Name="ConversionId" ColumnName="ConversionId" />
+          <ScalarProperty Name="Quantity" ColumnName="Quantity" />
+          <ScalarProperty Name="TotalCost" ColumnName="TotalCost" />
+          <ScalarProperty Name="PurchaseOrderRequestId" ColumnName="PurchaseOrderRequestId" />
+          <ScalarProperty Name="date_creation" ColumnName="date_creation" />
+          <ScalarProperty Name="created_by" ColumnName="created_by" />
+          <ScalarProperty Name="modified_by" ColumnName="modified_by" />
+          <ScalarProperty Name="date_modified" ColumnName="date_modified" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="PurchaseOrderRequests">
+      <EntityTypeMapping TypeName="GhostlyDBModel.PurchaseOrderRequest">
+        <MappingFragment StoreEntitySet="PurchaseOrderRequest">
+          <ScalarProperty Name="PurchaseOrderRequestId" ColumnName="PurchaseOrderRequestId" />
+          <ScalarProperty Name="SupplierId" ColumnName="SupplierId" />
+          <ScalarProperty Name="SupplierLocationId" ColumnName="SupplierLocationId" />
+          <ScalarProperty Name="OperatorId" ColumnName="OperatorId" />
+          <ScalarProperty Name="OperatorLocationId" ColumnName="OperatorLocationId" />
+          <ScalarProperty Name="Date" ColumnName="Date" />
+          <ScalarProperty Name="CommercialIngredientId" ColumnName="CommercialIngredientId" />
+          <ScalarProperty Name="ConversionId" ColumnName="ConversionId" />
+          <ScalarProperty Name="Quantity" ColumnName="Quantity" />
+          <ScalarProperty Name="TotalCostEstimated" ColumnName="TotalCostEstimated" />
+          <ScalarProperty Name="DateAccepted" ColumnName="DateAccepted" />
+          <ScalarProperty Name="DateDelivered" ColumnName="DateDelivered" />
+          <ScalarProperty Name="Completed" ColumnName="Completed" />
+          <ScalarProperty Name="date_creation" ColumnName="date_creation" />
+          <ScalarProperty Name="created_by" ColumnName="created_by" />
+          <ScalarProperty Name="modified_by" ColumnName="modified_by" />
+          <ScalarProperty Name="date_modified" ColumnName="date_modified" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="PurchaseOrderSuggestions">
+      <EntityTypeMapping TypeName="GhostlyDBModel.PurchaseOrderSuggestion">
+        <MappingFragment StoreEntitySet="PurchaseOrderSuggestion">
+          <ScalarProperty Name="PurchaseOrderSuggestiontId" ColumnName="PurchaseOrderSuggestiontId" />
+          <ScalarProperty Name="SupplierId" ColumnName="SupplierId" />
+          <ScalarProperty Name="SupplierLocationId" ColumnName="SupplierLocationId" />
+          <ScalarProperty Name="OperatorId" ColumnName="OperatorId" />
+          <ScalarProperty Name="OperatorLocationId" ColumnName="OperatorLocationId" />
+          <ScalarProperty Name="Date" ColumnName="Date" />
+          <ScalarProperty Name="CommercialIngredientId" ColumnName="CommercialIngredientId" />
+          <ScalarProperty Name="ConversionId" ColumnName="ConversionId" />
+          <ScalarProperty Name="Quantity" ColumnName="Quantity" />
+          <ScalarProperty Name="TotalCostEstimated" ColumnName="TotalCostEstimated" />
+          <ScalarProperty Name="DateAccepted" ColumnName="DateAccepted" />
+          <ScalarProperty Name="AcceptedByRequestor" ColumnName="AcceptedByRequestor" />
+          <ScalarProperty Name="date_creation" ColumnName="date_creation" />
+          <ScalarProperty Name="created_by" ColumnName="created_by" />
+          <ScalarProperty Name="modified_by" ColumnName="modified_by" />
+          <ScalarProperty Name="date_modified" ColumnName="date_modified" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="PurchaseOrderSuggestionAlternatives">
+      <EntityTypeMapping TypeName="GhostlyDBModel.PurchaseOrderSuggestionAlternative">
+        <MappingFragment StoreEntitySet="PurchaseOrderSuggestionAlternatives">
+          <ScalarProperty Name="PurchaseOrderSuggestionAlternativetId" ColumnName="PurchaseOrderSuggestionAlternativetId" />
+          <ScalarProperty Name="AlternativeTo" ColumnName="AlternativeTo" />
+          <ScalarProperty Name="SupplierId" ColumnName="SupplierId" />
+          <ScalarProperty Name="SupplierLocationId" ColumnName="SupplierLocationId" />
+          <ScalarProperty Name="OperatorId" ColumnName="OperatorId" />
+          <ScalarProperty Name="OperatorLocationId" ColumnName="OperatorLocationId" />
+          <ScalarProperty Name="Date" ColumnName="Date" />
+          <ScalarProperty Name="CommercialIngredientId" ColumnName="CommercialIngredientId" />
+          <ScalarProperty Name="ConversionId" ColumnName="ConversionId" />
+          <ScalarProperty Name="Quantity" ColumnName="Quantity" />
+          <ScalarProperty Name="TotalCostEstimated" ColumnName="TotalCostEstimated" />
+          <ScalarProperty Name="DateAccepted" ColumnName="DateAccepted" />
+          <ScalarProperty Name="AcceptedByRequestor" ColumnName="AcceptedByRequestor" />
+          <ScalarProperty Name="date_creation" ColumnName="date_creation" />
+          <ScalarProperty Name="created_by" ColumnName="created_by" />
+          <ScalarProperty Name="modified_by" ColumnName="modified_by" />
+          <ScalarProperty Name="date_modified" ColumnName="date_modified" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Recipes">
+      <EntityTypeMapping TypeName="GhostlyDBModel.Recipe">
+        <MappingFragment StoreEntitySet="Recipes">
+          <ScalarProperty Name="RecipeId" ColumnName="RecipeId" />
+          <ScalarProperty Name="ProductName" ColumnName="ProductName" />
+          <ScalarProperty Name="Variation" ColumnName="Variation" />
+          <ScalarProperty Name="CurrentPrice" ColumnName="CurrentPrice" />
+          <ScalarProperty Name="LastCost" ColumnName="LastCost" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+          <ScalarProperty Name="StandardRecipeId" ColumnName="StandardRecipeId" />
+          <ScalarProperty Name="OperatorId" ColumnName="OperatorId" />
+          <ScalarProperty Name="OperatorLocationId" ColumnName="OperatorLocationId" />
+          <ScalarProperty Name="date_creation" ColumnName="date_creation" />
+          <ScalarProperty Name="created_by" ColumnName="created_by" />
+          <ScalarProperty Name="modified_by" ColumnName="modified_by" />
+          <ScalarProperty Name="date_modified" ColumnName="date_modified" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="RecipesIngredients">
+      <EntityTypeMapping TypeName="GhostlyDBModel.RecipesIngredient">
+        <MappingFragment StoreEntitySet="RecipesIngredients">
+          <ScalarProperty Name="RecipeVariationId" ColumnName="RecipeVariationId" />
+          <ScalarProperty Name="RecipeId" ColumnName="RecipeId" />
+          <ScalarProperty Name="IngredientId" ColumnName="IngredientId" />
+          <ScalarProperty Name="Quantity" ColumnName="Quantity" />
+          <ScalarProperty Name="UnitType" ColumnName="UnitType" />
+          <ScalarProperty Name="CurrentPrice" ColumnName="CurrentPrice" />
+          <ScalarProperty Name="LastCost" ColumnName="LastCost" />
+          <ScalarProperty Name="date_creation" ColumnName="date_creation" />
+          <ScalarProperty Name="created_by" ColumnName="created_by" />
+          <ScalarProperty Name="modified_by" ColumnName="modified_by" />
+          <ScalarProperty Name="date_modified" ColumnName="date_modified" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="SaleRecipeModifiers">
+      <EntityTypeMapping TypeName="GhostlyDBModel.SaleRecipeModifier">
+        <MappingFragment StoreEntitySet="SaleRecipeModifiers">
+          <ScalarProperty Name="SaleRecipeModifierId" ColumnName="SaleRecipeModifierId" />
+          <ScalarProperty Name="ModifierId" ColumnName="ModifierId" />
+          <ScalarProperty Name="SaleId" ColumnName="SaleId" />
+          <ScalarProperty Name="date_creation" ColumnName="date_creation" />
+          <ScalarProperty Name="created_by" ColumnName="created_by" />
+          <ScalarProperty Name="modified_by" ColumnName="modified_by" />
+          <ScalarProperty Name="date_modified" ColumnName="date_modified" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Sales">
+      <EntityTypeMapping TypeName="GhostlyDBModel.Sale">
+        <MappingFragment StoreEntitySet="Sales">
+          <ScalarProperty Name="SaleId" ColumnName="SaleId" />
+          <ScalarProperty Name="Date" ColumnName="Date" />
+          <ScalarProperty Name="Time" ColumnName="Time" />
+          <ScalarProperty Name="TimeZone" ColumnName="TimeZone" />
+          <ScalarProperty Name="Category" ColumnName="Category" />
+          <ScalarProperty Name="Qty" ColumnName="Qty" />
+          <ScalarProperty Name="SKU" ColumnName="SKU" />
+          <ScalarProperty Name="GrossSales" ColumnName="GrossSales" />
+          <ScalarProperty Name="DicscountPerc" ColumnName="DicscountPerc" />
+          <ScalarProperty Name="Discounts" ColumnName="Discounts" />
+          <ScalarProperty Name="NetSales" ColumnName="NetSales" />
+          <ScalarProperty Name="TaxPerc" ColumnName="TaxPerc" />
+          <ScalarProperty Name="Tax" ColumnName="Tax" />
+          <ScalarProperty Name="TransactionID" ColumnName="TransactionID" />
+          <ScalarProperty Name="PaymentID" ColumnName="PaymentID" />
+          <ScalarProperty Name="DeviceName" ColumnName="DeviceName" />
+          <ScalarProperty Name="Notes" ColumnName="Notes" />
+          <ScalarProperty Name="Details" ColumnName="Details" />
+          <ScalarProperty Name="EventType" ColumnName="EventType" />
+          <ScalarProperty Name="DiningOption" ColumnName="DiningOption" />
+          <ScalarProperty Name="CustomerID" ColumnName="CustomerID" />
+          <ScalarProperty Name="CustomerName" ColumnName="CustomerName" />
+          <ScalarProperty Name="CustomerReferenceID" ColumnName="CustomerReferenceID" />
+          <ScalarProperty Name="Unit" ColumnName="Unit" />
+          <ScalarProperty Name="Count" ColumnName="Count" />
+          <ScalarProperty Name="RecipeId" ColumnName="RecipeId" />
+          <ScalarProperty Name="OperatorId" ColumnName="OperatorId" />
+          <ScalarProperty Name="OperatorLocationId" ColumnName="OperatorLocationId" />
+          <ScalarProperty Name="DeliveryChannel" ColumnName="DeliveryChannel" />
+          <ScalarProperty Name="date_creation" ColumnName="date_creation" />
+          <ScalarProperty Name="created_by" ColumnName="created_by" />
+          <ScalarProperty Name="modified_by" ColumnName="modified_by" />
+          <ScalarProperty Name="date_modified" ColumnName="date_modified" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="SiteContents">
+      <EntityTypeMapping TypeName="GhostlyDBModel.SiteContent">
+        <MappingFragment StoreEntitySet="SiteContent">
+          <ScalarProperty Name="SiteContentID" ColumnName="SiteContentID" />
+          <ScalarProperty Name="FileName" ColumnName="FileName" />
+          <ScalarProperty Name="Path" ColumnName="Path" />
+          <ScalarProperty Name="ContentType" ColumnName="ContentType" />
+          <ScalarProperty Name="Length" ColumnName="Length" />
+          <ScalarProperty Name="Data" ColumnName="Data" />
+          <ScalarProperty Name="Text" ColumnName="Text" />
+          <ScalarProperty Name="Roles" ColumnName="Roles" />
+          <ScalarProperty Name="RoleExceptions" ColumnName="RoleExceptions" />
+          <ScalarProperty Name="Users" ColumnName="Users" />
+          <ScalarProperty Name="UserExceptions" ColumnName="UserExceptions" />
+          <ScalarProperty Name="Schedule" ColumnName="Schedule" />
+          <ScalarProperty Name="ScheduleExceptions" ColumnName="ScheduleExceptions" />
+          <ScalarProperty Name="CacheProfile" ColumnName="CacheProfile" />
+          <ScalarProperty Name="CreatedDate" ColumnName="CreatedDate" />
+          <ScalarProperty Name="ModifiedDate" ColumnName="ModifiedDate" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="StandardRecipes">
+      <EntityTypeMapping TypeName="GhostlyDBModel.StandardRecipe">
+        <MappingFragment StoreEntitySet="StandardRecipes">
+          <ScalarProperty Name="StandardRecipeId" ColumnName="StandardRecipeId" />
+          <ScalarProperty Name="RecipeName" ColumnName="RecipeName" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+          <ScalarProperty Name="date_creation" ColumnName="date_creation" />
+          <ScalarProperty Name="created_by" ColumnName="created_by" />
+          <ScalarProperty Name="modified_by" ColumnName="modified_by" />
+          <ScalarProperty Name="date_modified" ColumnName="date_modified" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="StartStocks">
+      <EntityTypeMapping TypeName="GhostlyDBModel.StartStock">
+        <MappingFragment StoreEntitySet="StartStock">
+          <ScalarProperty Name="StartStockId" ColumnName="StartStockId" />
+          <ScalarProperty Name="IngredientId" ColumnName="IngredientId" />
+          <ScalarProperty Name="Date" ColumnName="Date" />
+          <ScalarProperty Name="Unit" ColumnName="Unit" />
+          <ScalarProperty Name="UnitType" ColumnName="UnitType" />
+          <ScalarProperty Name="NetWeight" ColumnName="NetWeight" />
+          <ScalarProperty Name="OperatorId" ColumnName="OperatorId" />
+          <ScalarProperty Name="OperatorLocationId" ColumnName="OperatorLocationId" />
+          <ScalarProperty Name="date_creation" ColumnName="date_creation" />
+          <ScalarProperty Name="created_by" ColumnName="created_by" />
+          <ScalarProperty Name="modified_by" ColumnName="modified_by" />
+          <ScalarProperty Name="date_modified" ColumnName="date_modified" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="StockDailySalesIngredients">
+      <EntityTypeMapping TypeName="GhostlyDBModel.StockDailySalesIngredient">
+        <MappingFragment StoreEntitySet="StockDailySalesIngredients">
+          <ScalarProperty Name="DailySalesIngredientsId" ColumnName="DailySalesIngredientsId" />
+          <ScalarProperty Name="Date" ColumnName="Date" />
+          <ScalarProperty Name="IngredientId" ColumnName="IngredientId" />
+          <ScalarProperty Name="TotalQuantity" ColumnName="TotalQuantity" />
+          <ScalarProperty Name="UnitType" ColumnName="UnitType" />
+          <ScalarProperty Name="OperatortId" ColumnName="OperatortId" />
+          <ScalarProperty Name="OperatorLocationId" ColumnName="OperatorLocationId" />
+          <ScalarProperty Name="Price" ColumnName="Price" />
+          <ScalarProperty Name="Cost" ColumnName="Cost" />
+          <ScalarProperty Name="date_creation" ColumnName="date_creation" />
+          <ScalarProperty Name="created_by" ColumnName="created_by" />
+          <ScalarProperty Name="modified_by" ColumnName="modified_by" />
+          <ScalarProperty Name="date_modified" ColumnName="date_modified" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="StockUnespectedVariations">
+      <EntityTypeMapping TypeName="GhostlyDBModel.StockUnespectedVariation">
+        <MappingFragment StoreEntitySet="StockUnespectedVariations">
+          <ScalarProperty Name="UnespectedVariationId" ColumnName="UnespectedVariationId" />
+          <ScalarProperty Name="Date" ColumnName="Date" />
+          <ScalarProperty Name="Quantity" ColumnName="Quantity" />
+          <ScalarProperty Name="IngredientId" ColumnName="IngredientId" />
+          <ScalarProperty Name="ProcessIngredient" ColumnName="ProcessIngredient" />
+          <ScalarProperty Name="CommercialIngredient" ColumnName="CommercialIngredient" />
+          <ScalarProperty Name="Reason" ColumnName="Reason" />
+          <ScalarProperty Name="Price" ColumnName="Price" />
+          <ScalarProperty Name="Cost" ColumnName="Cost" />
+          <ScalarProperty Name="date_creation" ColumnName="date_creation" />
+          <ScalarProperty Name="created_by" ColumnName="created_by" />
+          <ScalarProperty Name="modified_by" ColumnName="modified_by" />
+          <ScalarProperty Name="date_modified" ColumnName="date_modified" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Suppliers">
+      <EntityTypeMapping TypeName="GhostlyDBModel.Supplier">
+        <MappingFragment StoreEntitySet="Suppliers">
+          <ScalarProperty Name="SupplierId" ColumnName="SupplierId" />
+          <ScalarProperty Name="SupplierNameFirm" ColumnName="SupplierNameFirm" />
+          <ScalarProperty Name="SupplierVATid" ColumnName="SupplierVATid" />
+          <ScalarProperty Name="SupplierMainContact" ColumnName="SupplierMainContact" />
+          <ScalarProperty Name="SupplierEmail" ColumnName="SupplierEmail" />
+          <ScalarProperty Name="SupplierTelephone" ColumnName="SupplierTelephone" />
+          <ScalarProperty Name="SupplierCity" ColumnName="SupplierCity" />
+          <ScalarProperty Name="SupplierAddressLine1" ColumnName="SupplierAddressLine1" />
+          <ScalarProperty Name="SupplierAddressLine2" ColumnName="SupplierAddressLine2" />
+          <ScalarProperty Name="SupplierCountry" ColumnName="SupplierCountry" />
+          <ScalarProperty Name="SupplierStateOrProvince" ColumnName="SupplierStateOrProvince" />
+          <ScalarProperty Name="SupplierRegion" ColumnName="SupplierRegion" />
+          <ScalarProperty Name="SupplierCategory" ColumnName="SupplierCategory" />
+          <ScalarProperty Name="SupplierSubCategory" ColumnName="SupplierSubCategory" />
+          <ScalarProperty Name="SupplierGhostlyClassification" ColumnName="SupplierGhostlyClassification" />
+          <ScalarProperty Name="date_creation" ColumnName="date_creation" />
+          <ScalarProperty Name="created_by" ColumnName="created_by" />
+          <ScalarProperty Name="modified_by" ColumnName="modified_by" />
+          <ScalarProperty Name="date_modified" ColumnName="date_modified" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Suppliers_Location">
+      <EntityTypeMapping TypeName="GhostlyDBModel.Suppliers_Location">
+        <MappingFragment StoreEntitySet="Suppliers_Location">
+          <ScalarProperty Name="SupplierLocationId" ColumnName="SupplierLocationId" />
+          <ScalarProperty Name="SupplierId" ColumnName="SupplierId" />
+          <ScalarProperty Name="LocationName" ColumnName="LocationName" />
+          <ScalarProperty Name="LocationVATid" ColumnName="LocationVATid" />
+          <ScalarProperty Name="LocationMainContact" ColumnName="LocationMainContact" />
+          <ScalarProperty Name="LocationEmail" ColumnName="LocationEmail" />
+          <ScalarProperty Name="LocationTelephone" ColumnName="LocationTelephone" />
+          <ScalarProperty Name="LocationCity" ColumnName="LocationCity" />
+          <ScalarProperty Name="LocationAddressLine1" ColumnName="LocationAddressLine1" />
+          <ScalarProperty Name="LocationAddressLine2" ColumnName="LocationAddressLine2" />
+          <ScalarProperty Name="LocationZIP" ColumnName="LocationZIP" />
+          <ScalarProperty Name="LocationCountry" ColumnName="LocationCountry" />
+          <ScalarProperty Name="LocationStateOrProvince" ColumnName="LocationStateOrProvince" />
+          <ScalarProperty Name="LocationRegion" ColumnName="LocationRegion" />
+          <ScalarProperty Name="LocationCategory" ColumnName="LocationCategory" />
+          <ScalarProperty Name="LocationSubCategory" ColumnName="LocationSubCategory" />
+          <ScalarProperty Name="LocationGhostlyClassification" ColumnName="LocationGhostlyClassification" />
+          <ScalarProperty Name="LocationStorageCapacityLiquids" ColumnName="LocationStorageCapacityLiquids" />
+          <ScalarProperty Name="LocationStorageCapacityVolume" ColumnName="LocationStorageCapacityVolume" />
+          <ScalarProperty Name="LocationStorageUsedCapacityLiquids" ColumnName="LocationStorageUsedCapacityLiquids" />
+          <ScalarProperty Name="LocationStorageUsedCapacityVolume" ColumnName="LocationStorageUsedCapacityVolume" />
+          <ScalarProperty Name="date_creation" ColumnName="date_creation" />
+          <ScalarProperty Name="created_by" ColumnName="created_by" />
+          <ScalarProperty Name="modified_by" ColumnName="modified_by" />
+          <ScalarProperty Name="date_modified" ColumnName="date_modified" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="UniversalIngredients">
+      <EntityTypeMapping TypeName="GhostlyDBModel.UniversalIngredient">
+        <MappingFragment StoreEntitySet="UniversalIngredients">
+          <ScalarProperty Name="UniversalIngredientId" ColumnName="UniversalIngredientId" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="Category" ColumnName="Category" />
+          <ScalarProperty Name="Type" ColumnName="Type" />
+          <ScalarProperty Name="PerishabilityIndexHours" ColumnName="PerishabilityIndexHours" />
+          <ScalarProperty Name="PerishabilityIndexDays" ColumnName="PerishabilityIndexDays" />
+          <ScalarProperty Name="PerishabilityIndexMonths" ColumnName="PerishabilityIndexMonths" />
+          <ScalarProperty Name="PerishabilityIsMandatory" ColumnName="PerishabilityIsMandatory" />
+          <ScalarProperty Name="date_creation" ColumnName="date_creation" />
+          <ScalarProperty Name="created_by" ColumnName="created_by" />
+          <ScalarProperty Name="modified_by" ColumnName="modified_by" />
+          <ScalarProperty Name="date_modified" ColumnName="date_modified" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="vw_aspnet_Applications">
+      <EntityTypeMapping TypeName="GhostlyDBModel.vw_aspnet_Applications">
+        <MappingFragment StoreEntitySet="vw_aspnet_Applications">
+          <ScalarProperty Name="ApplicationName" ColumnName="ApplicationName" />
+          <ScalarProperty Name="LoweredApplicationName" ColumnName="LoweredApplicationName" />
+          <ScalarProperty Name="ApplicationId" ColumnName="ApplicationId" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="vw_aspnet_MembershipUsers">
+      <EntityTypeMapping TypeName="GhostlyDBModel.vw_aspnet_MembershipUsers">
+        <MappingFragment StoreEntitySet="vw_aspnet_MembershipUsers">
+          <ScalarProperty Name="UserId" ColumnName="UserId" />
+          <ScalarProperty Name="PasswordFormat" ColumnName="PasswordFormat" />
+          <ScalarProperty Name="MobilePIN" ColumnName="MobilePIN" />
+          <ScalarProperty Name="Email" ColumnName="Email" />
+          <ScalarProperty Name="LoweredEmail" ColumnName="LoweredEmail" />
+          <ScalarProperty Name="PasswordQuestion" ColumnName="PasswordQuestion" />
+          <ScalarProperty Name="PasswordAnswer" ColumnName="PasswordAnswer" />
+          <ScalarProperty Name="IsApproved" ColumnName="IsApproved" />
+          <ScalarProperty Name="IsLockedOut" ColumnName="IsLockedOut" />
+          <ScalarProperty Name="CreateDate" ColumnName="CreateDate" />
+          <ScalarProperty Name="LastLoginDate" ColumnName="LastLoginDate" />
+          <ScalarProperty Name="LastPasswordChangedDate" ColumnName="LastPasswordChangedDate" />
+          <ScalarProperty Name="LastLockoutDate" ColumnName="LastLockoutDate" />
+          <ScalarProperty Name="FailedPasswordAttemptCount" ColumnName="FailedPasswordAttemptCount" />
+          <ScalarProperty Name="FailedPasswordAttemptWindowStart" ColumnName="FailedPasswordAttemptWindowStart" />
+          <ScalarProperty Name="FailedPasswordAnswerAttemptCount" ColumnName="FailedPasswordAnswerAttemptCount" />
+          <ScalarProperty Name="FailedPasswordAnswerAttemptWindowStart" ColumnName="FailedPasswordAnswerAttemptWindowStart" />
+          <ScalarProperty Name="Comment" ColumnName="Comment" />
+          <ScalarProperty Name="ApplicationId" ColumnName="ApplicationId" />
+          <ScalarProperty Name="UserName" ColumnName="UserName" />
+          <ScalarProperty Name="MobileAlias" ColumnName="MobileAlias" />
+          <ScalarProperty Name="IsAnonymous" ColumnName="IsAnonymous" />
+          <ScalarProperty Name="LastActivityDate" ColumnName="LastActivityDate" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="vw_aspnet_Roles">
+      <EntityTypeMapping TypeName="GhostlyDBModel.vw_aspnet_Roles">
+        <MappingFragment StoreEntitySet="vw_aspnet_Roles">
+          <ScalarProperty Name="ApplicationId" ColumnName="ApplicationId" />
+          <ScalarProperty Name="RoleId" ColumnName="RoleId" />
+          <ScalarProperty Name="RoleName" ColumnName="RoleName" />
+          <ScalarProperty Name="LoweredRoleName" ColumnName="LoweredRoleName" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="vw_aspnet_Users">
+      <EntityTypeMapping TypeName="GhostlyDBModel.vw_aspnet_Users">
+        <MappingFragment StoreEntitySet="vw_aspnet_Users">
+          <ScalarProperty Name="ApplicationId" ColumnName="ApplicationId" />
+          <ScalarProperty Name="UserId" ColumnName="UserId" />
+          <ScalarProperty Name="UserName" ColumnName="UserName" />
+          <ScalarProperty Name="LoweredUserName" ColumnName="LoweredUserName" />
+          <ScalarProperty Name="MobileAlias" ColumnName="MobileAlias" />
+          <ScalarProperty Name="IsAnonymous" ColumnName="IsAnonymous" />
+          <ScalarProperty Name="LastActivityDate" ColumnName="LastActivityDate" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="vw_aspnet_UsersInRoles">
+      <EntityTypeMapping TypeName="GhostlyDBModel.vw_aspnet_UsersInRoles">
+        <MappingFragment StoreEntitySet="vw_aspnet_UsersInRoles">
+          <ScalarProperty Name="UserId" ColumnName="UserId" />
+          <ScalarProperty Name="RoleId" ColumnName="RoleId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <AssociationSetMapping Name="aspnet_UsersInRoles" TypeName="GhostlyDBModel.aspnet_UsersInRoles" StoreEntitySet="aspnet_UsersInRoles">
+      <EndProperty Name="aspnet_Roles">
+        <ScalarProperty Name="RoleId" ColumnName="RoleId" />
+      </EndProperty>
+      <EndProperty Name="aspnet_Users">
+        <ScalarProperty Name="UserId" ColumnName="UserId" />
+      </EndProperty>
+    </AssociationSetMapping>
+    <FunctionImportMapping FunctionImportName="aspnet_AnyDataInTables" FunctionName="GhostlyDBModel.Store.aspnet_AnyDataInTables" />
+    <FunctionImportMapping FunctionImportName="aspnet_Applications_CreateApplication" FunctionName="GhostlyDBModel.Store.aspnet_Applications_CreateApplication" />
+    <FunctionImportMapping FunctionImportName="aspnet_CheckSchemaVersion" FunctionName="GhostlyDBModel.Store.aspnet_CheckSchemaVersion" />
+    <FunctionImportMapping FunctionImportName="aspnet_Membership_ChangePasswordQuestionAndAnswer" FunctionName="GhostlyDBModel.Store.aspnet_Membership_ChangePasswordQuestionAndAnswer" />
+    <FunctionImportMapping FunctionImportName="aspnet_Membership_CreateUser" FunctionName="GhostlyDBModel.Store.aspnet_Membership_CreateUser" />
+    <FunctionImportMapping FunctionImportName="aspnet_Membership_FindUsersByEmail" FunctionName="GhostlyDBModel.Store.aspnet_Membership_FindUsersByEmail" />
+    <FunctionImportMapping FunctionImportName="aspnet_Membership_FindUsersByName" FunctionName="GhostlyDBModel.Store.aspnet_Membership_FindUsersByName" />
+    <FunctionImportMapping FunctionImportName="aspnet_Membership_GetAllUsers" FunctionName="GhostlyDBModel.Store.aspnet_Membership_GetAllUsers" />
+    <FunctionImportMapping FunctionImportName="aspnet_Membership_GetNumberOfUsersOnline" FunctionName="GhostlyDBModel.Store.aspnet_Membership_GetNumberOfUsersOnline" />
+    <FunctionImportMapping FunctionImportName="aspnet_Membership_GetPassword" FunctionName="GhostlyDBModel.Store.aspnet_Membership_GetPassword">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="GhostlyDBModel.aspnet_Membership_GetPassword_Result">
+          <ScalarProperty Name="Column1" ColumnName="Column1" />
+          <ScalarProperty Name="Column2" ColumnName="Column2" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="aspnet_Membership_GetPasswordWithFormat" FunctionName="GhostlyDBModel.Store.aspnet_Membership_GetPasswordWithFormat">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="GhostlyDBModel.aspnet_Membership_GetPasswordWithFormat_Result">
+          <ScalarProperty Name="Column1" ColumnName="Column1" />
+          <ScalarProperty Name="Column2" ColumnName="Column2" />
+          <ScalarProperty Name="Column3" ColumnName="Column3" />
+          <ScalarProperty Name="Column4" ColumnName="Column4" />
+          <ScalarProperty Name="Column5" ColumnName="Column5" />
+          <ScalarProperty Name="Column6" ColumnName="Column6" />
+          <ScalarProperty Name="Column7" ColumnName="Column7" />
+          <ScalarProperty Name="Column8" ColumnName="Column8" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="aspnet_Membership_GetUserByEmail" FunctionName="GhostlyDBModel.Store.aspnet_Membership_GetUserByEmail" />
+    <FunctionImportMapping FunctionImportName="aspnet_Membership_GetUserByName" FunctionName="GhostlyDBModel.Store.aspnet_Membership_GetUserByName">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="GhostlyDBModel.aspnet_Membership_GetUserByName_Result">
+          <ScalarProperty Name="Email" ColumnName="Email" />
+          <ScalarProperty Name="PasswordQuestion" ColumnName="PasswordQuestion" />
+          <ScalarProperty Name="Comment" ColumnName="Comment" />
+          <ScalarProperty Name="IsApproved" ColumnName="IsApproved" />
+          <ScalarProperty Name="CreateDate" ColumnName="CreateDate" />
+          <ScalarProperty Name="LastLoginDate" ColumnName="LastLoginDate" />
+          <ScalarProperty Name="LastActivityDate" ColumnName="LastActivityDate" />
+          <ScalarProperty Name="LastPasswordChangedDate" ColumnName="LastPasswordChangedDate" />
+          <ScalarProperty Name="UserId" ColumnName="UserId" />
+          <ScalarProperty Name="IsLockedOut" ColumnName="IsLockedOut" />
+          <ScalarProperty Name="LastLockoutDate" ColumnName="LastLockoutDate" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="aspnet_Membership_GetUserByUserId" FunctionName="GhostlyDBModel.Store.aspnet_Membership_GetUserByUserId">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="GhostlyDBModel.aspnet_Membership_GetUserByUserId_Result">
+          <ScalarProperty Name="Email" ColumnName="Email" />
+          <ScalarProperty Name="PasswordQuestion" ColumnName="PasswordQuestion" />
+          <ScalarProperty Name="Comment" ColumnName="Comment" />
+          <ScalarProperty Name="IsApproved" ColumnName="IsApproved" />
+          <ScalarProperty Name="CreateDate" ColumnName="CreateDate" />
+          <ScalarProperty Name="LastLoginDate" ColumnName="LastLoginDate" />
+          <ScalarProperty Name="LastActivityDate" ColumnName="LastActivityDate" />
+          <ScalarProperty Name="LastPasswordChangedDate" ColumnName="LastPasswordChangedDate" />
+          <ScalarProperty Name="UserName" ColumnName="UserName" />
+          <ScalarProperty Name="IsLockedOut" ColumnName="IsLockedOut" />
+          <ScalarProperty Name="LastLockoutDate" ColumnName="LastLockoutDate" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="aspnet_Membership_ResetPassword" FunctionName="GhostlyDBModel.Store.aspnet_Membership_ResetPassword" />
+    <FunctionImportMapping FunctionImportName="aspnet_Membership_SetPassword" FunctionName="GhostlyDBModel.Store.aspnet_Membership_SetPassword" />
+    <FunctionImportMapping FunctionImportName="aspnet_Membership_UnlockUser" FunctionName="GhostlyDBModel.Store.aspnet_Membership_UnlockUser" />
+    <FunctionImportMapping FunctionImportName="aspnet_Membership_UpdateUser" FunctionName="GhostlyDBModel.Store.aspnet_Membership_UpdateUser" />
+    <FunctionImportMapping FunctionImportName="aspnet_Membership_UpdateUserInfo" FunctionName="GhostlyDBModel.Store.aspnet_Membership_UpdateUserInfo" />
+    <FunctionImportMapping FunctionImportName="aspnet_RegisterSchemaVersion" FunctionName="GhostlyDBModel.Store.aspnet_RegisterSchemaVersion" />
+    <FunctionImportMapping FunctionImportName="aspnet_Roles_CreateRole" FunctionName="GhostlyDBModel.Store.aspnet_Roles_CreateRole" />
+    <FunctionImportMapping FunctionImportName="aspnet_Roles_DeleteRole" FunctionName="GhostlyDBModel.Store.aspnet_Roles_DeleteRole" />
+    <FunctionImportMapping FunctionImportName="aspnet_Roles_GetAllRoles" FunctionName="GhostlyDBModel.Store.aspnet_Roles_GetAllRoles" />
+    <FunctionImportMapping FunctionImportName="aspnet_Roles_RoleExists" FunctionName="GhostlyDBModel.Store.aspnet_Roles_RoleExists" />
+    <FunctionImportMapping FunctionImportName="aspnet_Setup_RemoveAllRoleMembers" FunctionName="GhostlyDBModel.Store.aspnet_Setup_RemoveAllRoleMembers" />
+    <FunctionImportMapping FunctionImportName="aspnet_UnRegisterSchemaVersion" FunctionName="GhostlyDBModel.Store.aspnet_UnRegisterSchemaVersion" />
+    <FunctionImportMapping FunctionImportName="aspnet_Users_CreateUser" FunctionName="GhostlyDBModel.Store.aspnet_Users_CreateUser" />
+    <FunctionImportMapping FunctionImportName="aspnet_Users_DeleteUser" FunctionName="GhostlyDBModel.Store.aspnet_Users_DeleteUser" />
+    <FunctionImportMapping FunctionImportName="aspnet_UsersInRoles_AddUsersToRoles" FunctionName="GhostlyDBModel.Store.aspnet_UsersInRoles_AddUsersToRoles" />
+    <FunctionImportMapping FunctionImportName="aspnet_UsersInRoles_FindUsersInRole" FunctionName="GhostlyDBModel.Store.aspnet_UsersInRoles_FindUsersInRole" />
+    <FunctionImportMapping FunctionImportName="aspnet_UsersInRoles_GetRolesForUser" FunctionName="GhostlyDBModel.Store.aspnet_UsersInRoles_GetRolesForUser" />
+    <FunctionImportMapping FunctionImportName="aspnet_UsersInRoles_GetUsersInRoles" FunctionName="GhostlyDBModel.Store.aspnet_UsersInRoles_GetUsersInRoles" />
+    <FunctionImportMapping FunctionImportName="aspnet_UsersInRoles_IsUserInRole" FunctionName="GhostlyDBModel.Store.aspnet_UsersInRoles_IsUserInRole" />
+    <FunctionImportMapping FunctionImportName="aspnet_UsersInRoles_RemoveUsersFromRoles" FunctionName="GhostlyDBModel.Store.aspnet_UsersInRoles_RemoveUsersFromRoles">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="GhostlyDBModel.aspnet_UsersInRoles_RemoveUsersFromRoles_Result">
+          <ScalarProperty Name="Column1" ColumnName="Column1" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="SPAvailableStock" FunctionName="GhostlyDBModel.Store.SPAvailableStock">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="GhostlyDBModel.SPAvailableStock_Result">
+          <ScalarProperty Name="IngredientId" ColumnName="IngredientId" />
+          <ScalarProperty Name="AvailableStock" ColumnName="AvailableStock" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="SPConversion" FunctionName="GhostlyDBModel.Store.SPConversion" />
+    <FunctionImportMapping FunctionImportName="SPDailySaleIngredients" FunctionName="GhostlyDBModel.Store.SPDailySaleIngredients" />
+    <FunctionImportMapping FunctionImportName="SPIngredients" FunctionName="GhostlyDBModel.Store.SPIngredients" />
+    <FunctionImportMapping FunctionImportName="SPMain" FunctionName="GhostlyDBModel.Store.SPMain">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="GhostlyDBModel.SPMain_Result">
+          <ScalarProperty Name="ImportDate" ColumnName="ImportDate" />
+          <ScalarProperty Name="FileName" ColumnName="FileName" />
+          <ScalarProperty Name="ImportTable" ColumnName="ImportTable" />
+          <ScalarProperty Name="UpdatedRows" ColumnName="UpdatedRows" />
+          <ScalarProperty Name="InsertedRows" ColumnName="InsertedRows" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="SPModifers" FunctionName="GhostlyDBModel.Store.SPModifers" />
+    <FunctionImportMapping FunctionImportName="SPProcessIngredients" FunctionName="GhostlyDBModel.Store.SPProcessIngredients" />
+    <FunctionImportMapping FunctionImportName="SPPurchaseOrderInvoice" FunctionName="GhostlyDBModel.Store.SPPurchaseOrderInvoice" />
+    <FunctionImportMapping FunctionImportName="SPRecipeIngredients" FunctionName="GhostlyDBModel.Store.SPRecipeIngredients" />
+    <FunctionImportMapping FunctionImportName="SPRecipes" FunctionName="GhostlyDBModel.Store.SPRecipes" />
+    <FunctionImportMapping FunctionImportName="SPSales" FunctionName="GhostlyDBModel.Store.SPSales" />
+    <FunctionImportMapping FunctionImportName="SPStartStock" FunctionName="GhostlyDBModel.Store.SPStartStock" />
+    <FunctionImportMapping FunctionImportName="SPSupiller" FunctionName="GhostlyDBModel.Store.SPSupiller" />
+    <FunctionImportMapping FunctionImportName="SPWeeklySalesForecasting" FunctionName="GhostlyDBModel.Store.SPWeeklySalesForecasting">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="GhostlyDBModel.SPWeeklySalesForecasting_Result">
+          <ScalarProperty Name="DailySalesIngredientsId" ColumnName="DailySalesIngredientsId" />
+          <ScalarProperty Name="Date" ColumnName="Date" />
+          <ScalarProperty Name="IngredientId" ColumnName="IngredientId" />
+          <ScalarProperty Name="TotalQuantity" ColumnName="TotalQuantity" />
+          <ScalarProperty Name="UnitType" ColumnName="UnitType" />
+          <ScalarProperty Name="OperatortId" ColumnName="OperatortId" />
+          <ScalarProperty Name="OperatorLocationId" ColumnName="OperatorLocationId" />
+          <ScalarProperty Name="Price" ColumnName="Price" />
+          <ScalarProperty Name="Cost" ColumnName="Cost" />
+          <ScalarProperty Name="date_creation" ColumnName="date_creation" />
+          <ScalarProperty Name="created_by" ColumnName="created_by" />
+          <ScalarProperty Name="modified_by" ColumnName="modified_by" />
+          <ScalarProperty Name="date_modified" ColumnName="date_modified" />
+          <ScalarProperty Name="WeeklySales" ColumnName="WeeklySales" />
+          <ScalarProperty Name="forcasting" ColumnName="forcasting" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+  </EntityContainerMapping>
+</Mapping>

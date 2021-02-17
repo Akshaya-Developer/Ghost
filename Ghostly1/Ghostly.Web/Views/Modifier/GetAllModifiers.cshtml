@@ -1,0 +1,152 @@
+﻿@model PagedList.IPagedList<Ghostly.Models.ModifierModel>
+
+@{
+
+    ViewBag.Title = "GetAllModifiers";
+
+}
+<link href="~/Content/PagedList.css" rel="stylesheet" />
+
+@using PagedList.Mvc;
+@using PagedList;
+
+
+
+
+
+
+<div>
+    <div>
+        <h2 class="pull-left">GetAllModifiers</h2>
+        @*<button class="btn btn-primary pull-right" style="color:white">*@
+
+            @Html.ActionLink("Create New", "AddModifier", new { @class = " btn btn-primary" })
+        @*</button>*@
+    </div>
+    <div class="search" style="text-align:right; float:left; display:inline">
+        @using (Html.BeginForm("GetAllModifiers", "Modifier", FormMethod.Get))
+        {
+            @*<p>
+                    Search Name: @Html.TextBox("Search_Data", ViewBag.FilterValue as string)
+                    <input type="submit" value="Find" />
+                </p>*@
+        }
+    </div>
+
+</div>
+<table class="table table-striped">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.FirstOrDefault().ModifierId)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.FirstOrDefault().RecipeId)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.FirstOrDefault().IngredientId)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.FirstOrDefault().Quantity)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.FirstOrDefault().UnitType)
+        </th>
+        @*<th>
+                @Html.DisplayNameFor(model => model.FirstOrDefault().OrderType)
+            </th>*@
+        <th>
+            @Html.DisplayNameFor(model => model.FirstOrDefault().CurrentPrice)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.FirstOrDefault().LastCost)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.FirstOrDefault().date_creation)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.FirstOrDefault().created_by)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.FirstOrDefault().modified_by)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.FirstOrDefault().date_modified)
+        </th>
+        <th style="width:300px" class="text-center">
+            Action
+        </th>
+
+    </tr>
+    @if (Model.Count() == 0)
+    {
+        <tr>
+            <td colspan="3" style="color:red">
+                No Match Any Document
+            </td>
+        </tr>
+    }
+    else
+    {
+        foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.ModifierId)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.RecipeId)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.IngredientId)
+                </td>
+                <td class="text-right">
+                    @Html.DisplayFor(modelItem => item.Quantity)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.UnitType)
+                </td>
+                @*<td>
+                        @Html.DisplayFor(modelItem => item.OrderType)
+                    </td>*@
+                <td>
+                    @Html.DisplayFor(modelItem => item.CurrentPrice)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.LastCost)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.date_creation)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.created_by)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.modified_by)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.date_modified)
+                </td>
+                <td class="text-center">
+                    @Html.ActionLink("Edit", "Update", new { id = item.ModifierId }, new { @class = " btn btn-primary" })|
+
+
+                    @Html.ActionLink("Details", "Detail", new { id = item.ModifierId }, new { @class = " btn btn-primary" })|
+
+
+                    @Html.ActionLink("Delete", "Delete", new { id = item.ModifierId }, new { @class = " btn btn-danger" })
+
+
+                </td>
+            </tr>
+
+        }
+    }
+
+</table>
+<div class="text-center">
+
+Page @(Model.PageCount < Model.PageNumber ? 0 : Model.PageNumber) of @Model.PageCount
+@Html.PagedListPager(Model, Page_No => Url.Action("GetAllModifiers",
+    new { Page_No, Sorting_Order = ViewBag.CurrentSortOrder, Filter_Value = ViewBag.FilterValue }))
+
+</div>

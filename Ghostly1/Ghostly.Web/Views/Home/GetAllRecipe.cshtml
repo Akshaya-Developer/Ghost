@@ -1,0 +1,112 @@
+﻿@model IEnumerable<Ghostly.Models.RecipeModel>
+
+@{
+    ViewBag.Title = "GetAllRecipe";
+}
+
+<h2>List of Recipe</h2>
+
+<p>
+    @Html.ActionLink("Create New", "AddRecipe")
+</p>
+<table class="table table table-striped" id="Recipe">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.RecipeId)
+        </th>
+
+        <th>
+            @Html.DisplayNameFor(model => model.ProductName)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Variation)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.CurrentPrice)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.LastCost)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Description)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.StandardRecipeId)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.OperatorId)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.OperatorLocationId)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.date_creation)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.created_by)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.modified_by)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.date_modified)
+        </th>
+        <th style="width:300px" class="text-center">
+            Action
+        </th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+<tr>
+    <td>
+        @Html.DisplayFor(modelItem => item.RecipeId)
+    </td>
+    <td>
+        @Html.DisplayFor(modelItem => item.ProductName)
+    </td>
+    <td>
+        @Html.DisplayFor(modelItem => item.Variation)
+    </td>
+    <td>
+        @Html.DisplayFor(modelItem => item.CurrentPrice)
+    </td>
+    <td>
+        @Html.DisplayFor(modelItem => item.LastCost)
+    </td>
+    <td>
+        @Html.DisplayFor(modelItem => item.Description)
+    </td>
+    <td>
+        @Html.DisplayFor(modelItem => item.StandardRecipeId)
+    </td>
+    <td>
+        @Html.DisplayFor(modelItem => item.OperatorId)
+    </td>
+    <td>
+        @Html.DisplayFor(modelItem => item.OperatorLocationId)
+    </td>
+    <td>
+        @Html.DisplayFor(modelItem => item.date_creation)
+    </td>
+    <td>
+        @Html.DisplayFor(modelItem => item.created_by)
+    </td>
+    <td>
+        @Html.DisplayFor(modelItem => item.modified_by)
+    </td>
+    <td>
+        @Html.DisplayFor(modelItem => item.date_modified)
+    </td>
+    <td>
+        @Html.ActionLink("Edit", "Update", new { id = item.RecipeId }, new { @class = " btn btn-primary" }) |
+        @Html.ActionLink("Details", "Detail", new { id = item.RecipeId }, new { @class = " btn btn-primary" }) |
+        @Html.ActionLink("Delete", "Delete", routeValues: new { id = item.RecipeId }, new { @class = " btn btn-danger" })
+    </td>
+</tr>
+    }
+
+</table>
+
+
+

@@ -1,0 +1,116 @@
+﻿@model Ghostly.Models.RecipeModel
+
+@{
+    ViewBag.Title = "Detail";
+}
+<center>
+    <h2>Details</h2>
+
+    <div>
+        <h4>RecipeModel</h4>
+        <hr />
+        <dl class="dl-horizontal">
+
+            <dt>
+                @Html.DisplayNameFor(model => model.ProductName)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.ProductName)
+            </dd>
+
+            <dt>
+                @Html.DisplayNameFor(model => model.Variation)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.Variation)
+            </dd>
+
+            <dt>
+                @Html.DisplayNameFor(model => model.CurrentPrice)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.CurrentPrice)
+            </dd>
+
+            <dt>
+                @Html.DisplayNameFor(model => model.LastCost)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.LastCost)
+            </dd>
+
+            <dt>
+                @Html.DisplayNameFor(model => model.Description)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.Description)
+            </dd>
+
+            <dt>
+                @Html.DisplayNameFor(model => model.StandardRecipeId)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.StandardRecipeId)
+            </dd>
+
+            <dt>
+                @Html.DisplayNameFor(model => model.OperatorId)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.OperatorId)
+            </dd>
+
+            <dt>
+                @Html.DisplayNameFor(model => model.OperatorLocationId)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.OperatorLocationId)
+            </dd>
+
+            <dt>
+                @Html.DisplayNameFor(model => model.date_creation)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.date_creation)
+            </dd>
+
+            <dt>
+                @Html.DisplayNameFor(model => model.created_by)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.created_by)
+            </dd>
+
+            <dt>
+                @Html.DisplayNameFor(model => model.modified_by)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.modified_by)
+            </dd>
+
+            <dt>
+                @Html.DisplayNameFor(model => model.date_modified)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.date_modified)
+            </dd>
+
+        </dl>
+    </div>
+    <p>
+        @*@Html.ActionLink("Edit", "Update", new { id = Model.RecipeId }) |*@
+        @Html.ActionLink("Back to List", "GetAllRecipe")
+    </p>
+</center>

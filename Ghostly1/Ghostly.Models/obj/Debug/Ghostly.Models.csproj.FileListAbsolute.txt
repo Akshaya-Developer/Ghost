@@ -1,0 +1,17 @@
+C:\Users\Amit Raj\source\repos\Ghostly1\Ghostly.Models\bin\Debug\Ghostly.Models.dll
+C:\Users\Amit Raj\source\repos\Ghostly1\Ghostly.Models\bin\Debug\Ghostly.Models.pdb
+C:\Users\Amit Raj\source\repos\Ghostly1\Ghostly.Models\obj\Debug\Ghostly.Models.csproj.CoreCompileInputs.cache
+C:\Users\Amit Raj\source\repos\Ghostly1\Ghostly.Models\obj\Debug\Ghostly.Models.dll
+C:\Users\Amit Raj\source\repos\Ghostly1\Ghostly.Models\obj\Debug\Ghostly.Models.pdb
+C:\Users\Devloper\Desktop\my projects\Ghostly1 (1)\Ghostly1\Ghostly.Models\bin\Debug\Ghostly.Models.dll
+C:\Users\Devloper\Desktop\my projects\Ghostly1 (1)\Ghostly1\Ghostly.Models\bin\Debug\Ghostly.Models.pdb
+C:\Users\Devloper\Desktop\my projects\Ghostly1 (1)\Ghostly1\Ghostly.Models\obj\Debug\Ghostly.Models.csprojAssemblyReference.cache
+C:\Users\Devloper\Desktop\my projects\Ghostly1 (1)\Ghostly1\Ghostly.Models\obj\Debug\Ghostly.Models.csproj.CoreCompileInputs.cache
+C:\Users\Devloper\Desktop\my projects\Ghostly1 (1)\Ghostly1\Ghostly.Models\obj\Debug\Ghostly.Models.dll
+C:\Users\Devloper\Desktop\my projects\Ghostly1 (1)\Ghostly1\Ghostly.Models\obj\Debug\Ghostly.Models.pdb
+D:\Ghostly1\Ghostly1\Ghostly.Models\bin\Debug\Ghostly.Models.dll
+D:\Ghostly1\Ghostly1\Ghostly.Models\bin\Debug\Ghostly.Models.pdb
+D:\Ghostly1\Ghostly1\Ghostly.Models\obj\Debug\Ghostly.Models.csprojAssemblyReference.cache
+D:\Ghostly1\Ghostly1\Ghostly.Models\obj\Debug\Ghostly.Models.csproj.CoreCompileInputs.cache
+D:\Ghostly1\Ghostly1\Ghostly.Models\obj\Debug\Ghostly.Models.dll
+D:\Ghostly1\Ghostly1\Ghostly.Models\obj\Debug\Ghostly.Models.pdb

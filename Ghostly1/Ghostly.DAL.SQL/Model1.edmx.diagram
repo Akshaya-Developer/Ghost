@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="47217ed9a7d2475cb3543b4226d6c20a" Name="Diagram1">
+        <EntityTypeShape EntityType="GhostlyDBModel.aspnet_Applications" Width="1.5" PointX="0.75" PointY="5.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="GhostlyDBModel.aspnet_Membership" Width="1.5" PointX="7.5" PointY="3.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="GhostlyDBModel.aspnet_Roles" Width="1.5" PointX="3" PointY="5" IsExpanded="true" />
+        <EntityTypeShape EntityType="GhostlyDBModel.aspnet_SchemaVersions" Width="1.5" PointX="0.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="GhostlyDBModel.aspnet_Sessions" Width="1.5" PointX="0.75" PointY="8.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="GhostlyDBModel.aspnet_Users" Width="1.5" PointX="5.25" PointY="4.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="GhostlyDBModel.CommercialIngredient" Width="1.5" PointX="11.25" PointY="37.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="GhostlyDBModel.Conversion" Width="1.5" PointX="18.75" PointY="45" IsExpanded="true" />
+        <EntityTypeShape EntityType="GhostlyDBModel.DeliveryChannel" Width="1.5" PointX="16.5" PointY="44.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="GhostlyDBModel.Ingredient" Width="1.5" PointX="16.5" PointY="36.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="GhostlyDBModel.IngredientsForStandardRecipe" Width="1.5" PointX="13.5" PointY="26.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="GhostlyDBModel.Modifier" Width="1.5" PointX="24.75" PointY="31" IsExpanded="true" />
+        <EntityTypeShape EntityType="GhostlyDBModel.norm_Brands" Width="1.5" PointX="3" PointY="38.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="GhostlyDBModel.norm_Countries" Width="1.5" PointX="0.75" PointY="36.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="GhostlyDBModel.norm_CountriesInRegions" Width="1.5" PointX="3" PointY="35.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="GhostlyDBModel.norm_IngredientCategories" Width="1.5" PointX="2.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="GhostlyDBModel.norm_IngredientType" Width="1.5" PointX="4.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="GhostlyDBModel.norm_OperatorCategories" Width="1.5" PointX="6" PointY="33.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="GhostlyDBModel.norm_OperatorSubCategories" Width="1.5" PointX="6" PointY="29.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="GhostlyDBModel.norm_OrderTypes" Width="1.5" PointX="22.5" PointY="32.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="GhostlyDBModel.norm_Regions" Width="1.5" PointX="0.75" PointY="38.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="GhostlyDBModel.norm_SupplierCategories" Width="1.5" PointX="0.75" PointY="42.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="GhostlyDBModel.norm_SupplierSubCategories" Width="1.5" PointX="0.75" PointY="44.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="GhostlyDBModel.norm_UnitTypes" Width="1.5" PointX="14.25" PointY="32" IsExpanded="true" />
+        <EntityTypeShape EntityType="GhostlyDBModel.norm_VariationTypes" Width="1.5" PointX="6.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="GhostlyDBModel.Operator" Width="1.5" PointX="6" PointY="35.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="GhostlyDBModel.Operators_Locations" Width="1.5" PointX="8.25" PointY="35.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="GhostlyDBModel.POI_POR_reconciliation" Width="1.5" PointX="29.25" PointY="42.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="GhostlyDBModel.PriceCostVariation" Width="1.5" PointX="29.25" PointY="37.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="GhostlyDBModel.ProcessIngredient" Width="1.5" PointX="16.5" PointY="30.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="GhostlyDBModel.prof_OperatorGhostlyClassification" Width="1.5" PointX="3.75" PointY="28.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="GhostlyDBModel.prof_SupplierGhostlyClassification" Width="1.5" PointX="0.75" PointY="47.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="GhostlyDBModel.PurchaseOrderInvoice" Width="1.5" PointX="21" PointY="41.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="GhostlyDBModel.PurchaseOrderRequest" Width="1.5" PointX="24" PointY="41.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="GhostlyDBModel.PurchaseOrderSuggestion" Width="1.5" PointX="27" PointY="41.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="GhostlyDBModel.PurchaseOrderSuggestionAlternative" Width="1.5" PointX="32.25" PointY="41.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="GhostlyDBModel.Recipe" Width="1.5" PointX="13.5" PointY="37.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="GhostlyDBModel.RecipesIngredient" Width="1.5" PointX="27" PointY="33.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="GhostlyDBModel.SaleRecipeModifier" Width="1.5" PointX="27" PointY="37.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="GhostlyDBModel.Sale" Width="1.5" PointX="18.75" PointY="35.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="GhostlyDBModel.SiteContent" Width="1.5" PointX="2.75" PointY="8.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="GhostlyDBModel.StandardRecipe" Width="1.5" PointX="11.25" PointY="33.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="GhostlyDBModel.StartStock" Width="1.5" PointX="21.75" PointY="36" IsExpanded="true" />
+        <EntityTypeShape EntityType="GhostlyDBModel.StockDailySalesIngredient" Width="1.5" PointX="24.75" PointY="35.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="GhostlyDBModel.StockUnespectedVariation" Width="1.5" PointX="18.75" PointY="30.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="GhostlyDBModel.Supplier" Width="1.5" PointX="3" PointY="42.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="GhostlyDBModel.Suppliers_Location" Width="1.5" PointX="5.25" PointY="45.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="GhostlyDBModel.UniversalIngredient" Width="1.5" PointX="9" PointY="31" IsExpanded="true" />
+        <EntityTypeShape EntityType="GhostlyDBModel.vw_aspnet_Applications" Width="1.5" PointX="8.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="GhostlyDBModel.vw_aspnet_MembershipUsers" Width="1.5" PointX="4.75" PointY="8.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="GhostlyDBModel.vw_aspnet_Roles" Width="1.5" PointX="9.75" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="GhostlyDBModel.vw_aspnet_Users" Width="1.5" PointX="9.75" PointY="6.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="GhostlyDBModel.vw_aspnet_UsersInRoles" Width="1.5" PointX="6.75" PointY="9.75" IsExpanded="true" />
+        <AssociationConnector Association="GhostlyDBModel.FK__aspnet_Me__Appli__43D61337" ManuallyRouted="false" />
+        <AssociationConnector Association="GhostlyDBModel.FK__aspnet_Ro__Appli__45BE5BA9" ManuallyRouted="false" />
+        <AssociationConnector Association="GhostlyDBModel.FK__aspnet_Me__UserI__44CA3770" ManuallyRouted="false" />
+        <AssociationConnector Association="GhostlyDBModel.FK_CommercialIngredients_norn_Brands_BrandId" ManuallyRouted="false" />
+        <AssociationConnector Association="GhostlyDBModel.FK_CommercialIngredients_UniversalIngredients_UniversalIngredientId" ManuallyRouted="false" />
+        <AssociationConnector Association="GhostlyDBModel.FK_Ingredients_CommercialIngredients_CommercialIngredientId" ManuallyRouted="false" />
+        <AssociationConnector Association="GhostlyDBModel.FK_PurchaseOrderInvoice_CommercialIngredients_CommercialIngredientId" ManuallyRouted="false" />
+        <AssociationConnector Association="GhostlyDBModel.FK_PurchaseOrderRequest_CommercialIngredients_CommercialIngredientId" ManuallyRouted="false" />
+        <AssociationConnector Association="GhostlyDBModel.FK_PurchaseOrderSuggestion_CommercialIngredientId" ManuallyRouted="false" />
+        <AssociationConnector Association="GhostlyDBModel.FK_PurchaseOrderSuggestionAlternatives_CommercialIngredientId" ManuallyRouted="false" />
+        <AssociationConnector Association="GhostlyDBModel.FK_StockUnespectedVariations_CommercialIngredients_CommercialIngredientId" ManuallyRouted="false" />
+        <AssociationConnector Association="GhostlyDBModel.FK__Conversio__Ingre__4E88ABD4" ManuallyRouted="false" />
+        <AssociationConnector Association="GhostlyDBModel.FK__PurchaseO__Conve__5EBF139D" ManuallyRouted="false" />
+        <AssociationConnector Association="GhostlyDBModel.FK_PurchaseOrderRequest_ConversionId" ManuallyRouted="false" />
+        <AssociationConnector Association="GhostlyDBModel.FK_PurchaseOrderSuggestion_ConversionId" ManuallyRouted="false" />
+        <AssociationConnector Association="GhostlyDBModel.FK_PurchaseOrderSuggestionAlternatives_ConversionId" ManuallyRouted="false" />
+        <AssociationConnector Association="GhostlyDBModel.FK_Sales_DeliveryChannels_ChannelId" ManuallyRouted="false" />
+        <AssociationConnector Association="GhostlyDBModel.FK__StartStoc__Ingre__5BE2A6F2" ManuallyRouted="false" />
+        <AssociationConnector Association="GhostlyDBModel.FK_DailySalesIngredients_Ingredients" ManuallyRouted="false" />
+        <AssociationConnector Association="GhostlyDBModel.FK_Ingredients_Operators_Locations_OperatorLocationId" ManuallyRouted="false" />
+        <AssociationConnector Association="GhostlyDBModel.FK_Ingredients_Operators_OperatorId" ManuallyRouted="false" />
+        <AssociationConnector Association="GhostlyDBModel.FK_PriceCostVariations_Ingredients_IngredientId" ManuallyRouted="false" />
+        <AssociationConnector Association="GhostlyDBModel.FK_StockUnespectedVariations_Ingredients_IngredientId" ManuallyRouted="false" />
+        <AssociationConnector Association="GhostlyDBModel.FK_IngredientsForStandardRecipes_StandardRecipes_StandardRecipeId" ManuallyRouted="false" />
+        <AssociationConnector Association="GhostlyDBModel.FK_IngredientsForStandardRecipes_UniversalIngredientId" ManuallyRouted="false" />
+        <AssociationConnector Association="GhostlyDBModel.FK_Modifiers_norm_OrderTypes_OrderTypeId" ManuallyRouted="false" />
+        <AssociationConnector Association="GhostlyDBModel.FK_SaleRecipeModifiers_Modifiers" ManuallyRouted="false" />
+        <AssociationConnector Association="GhostlyDBModel.FK_norn_Brands_norm_Countries_CountryId" ManuallyRouted="false" />
+        <AssociationConnector Association="GhostlyDBModel.FK_norn_Brands_norm_Regions_RegionId" ManuallyRouted="false" />
+        <AssociationConnector Association="GhostlyDBModel.FK_norm_CountriesInRegions_norm_Countries_CountryId" ManuallyRouted="false" />
+        <AssociationConnector Association="GhostlyDBModel.FK_norm_CountriesInRegions_norm_Regions_RegionId" ManuallyRouted="false" />
+        <AssociationConnector Association="GhostlyDBModel.FK_Operators_Locations_OperatorCategory" ManuallyRouted="false" />
+        <AssociationConnector Association="GhostlyDBModel.FK_Operators_norm_OperatorCategories_OperatorCategoryId" ManuallyRouted="false" />
+        <AssociationConnector Association="GhostlyDBModel.FK_Operators_Locations_OperatorSubCategory" ManuallyRouted="false" />
+        <AssociationConnector Association="GhostlyDBModel.FK_Operators_norm_OperatorSubCategories_OperatorSubCategoryId" ManuallyRouted="false" />
+        <AssociationConnector Association="GhostlyDBModel.FK_Operators_Locations_OperatorRegion" ManuallyRouted="false" />
+        <AssociationConnector Association="GhostlyDBModel.FK_Operators_norm_Regions_RegionId" ManuallyRouted="false" />
+        <AssociationConnector Association="GhostlyDBModel.FK_Suppliers_Location_LocationRegion" ManuallyRouted="false" />
+        <AssociationConnector Association="GhostlyDBModel.FK_Suppliers_norm_Regions_RegionId" ManuallyRouted="false" />
+        <AssociationConnector Association="GhostlyDBModel.FK_Suppliers_Location_norm_SupplierCategories_SupplierCategoryId" ManuallyRouted="false" />
+        <AssociationConnector Association="GhostlyDBModel.FK_Suppliers_norm_SupplierCategories_copy_SupplierCategoryId" ManuallyRouted="false" />
+        <AssociationConnector Association="GhostlyDBModel.FK_Suppliers_Location_norm_SupplierSubCategories_SupplierSubCategoryId" ManuallyRouted="false" />
+        <AssociationConnector Association="GhostlyDBModel.FK_Suppliers_norm_SupplierSubCategories_copy_SupplierSubCategoryId" ManuallyRouted="false" />
+        <AssociationConnector Association="GhostlyDBModel.FK_ProcessIngredients_norm_UnitTypes_UnitTypeId" ManuallyRouted="false" />
+        <AssociationConnector Association="GhostlyDBModel.FK_RecipesVariation_norm_UnitTypes_UnitTypeId" ManuallyRouted="false" />
+        <AssociationConnector Association="GhostlyDBModel.FK_DailySalesIngredients_Operators_OperatorId" ManuallyRouted="false" />
+        <AssociationConnector Association="GhostlyDBModel.FK_Operators_Locations_Operators_OperatorId" ManuallyRouted="false" />
+        <AssociationConnector Association="GhostlyDBModel.FK_Operators_norm_OperatorGhostlyClassification_OperatorGhostlyClassificationId" ManuallyRouted="false" />
+        <AssociationConnector Association="GhostlyDBModel.FK_PurchaseOrderInvoice_Operators_OperatorId" ManuallyRouted="false" />
+        <AssociationConnector Association="GhostlyDBModel.FK_PurchaseOrderRequest_Operator" ManuallyRouted="false" />
+        <AssociationConnector Association="GhostlyDBModel.FK_PurchaseOrderSuggestion_Operator" ManuallyRouted="false" />
+        <AssociationConnector Association="GhostlyDBModel.FK_PurchaseOrderSuggestionAlternatives_Operator" ManuallyRouted="false" />
+        <AssociationConnector Association="GhostlyDBModel.FK_Recipes_Operators_OperatorId" ManuallyRouted="false" />
+        <AssociationConnector Association="GhostlyDBModel.FK_Sales_Operators_OperatorId" ManuallyRouted="false" />
+        <AssociationConnector Association="GhostlyDBModel.FK_StartStock_Operators_OperatorId" ManuallyRouted="false" />
+        <AssociationConnector Association="GhostlyDBModel.FK_Operators_Locations_OperatorGhostlyClassification" ManuallyRouted="false" />
+        <AssociationConnector Association="GhostlyDBModel.FK_PurchaseOrderInvoice_Operators_Locations_OperatorLocationId" ManuallyRouted="false" />
+        <AssociationConnector Association="GhostlyDBModel.FK_PurchaseOrderRequest_OperatorLocation" ManuallyRouted="false" />
+        <AssociationConnector Association="GhostlyDBModel.FK_PurchaseOrderSuggestion_OperatorLocation" ManuallyRouted="false" />
+        <AssociationConnector Association="GhostlyDBModel.FK_PurchaseOrderSuggestionAlternatives_OperatorLocation" ManuallyRouted="false" />
+        <AssociationConnector Association="GhostlyDBModel.FK_Recipes_Operators_Locations_OperatorLocationId" ManuallyRouted="false" />
+        <AssociationConnector Association="GhostlyDBModel.FK_Sales_Operators_Locations_OperatorLocationId" ManuallyRouted="false" />
+        <AssociationConnector Association="GhostlyDBModel.FK_StartStock_OperatorLocation" ManuallyRouted="false" />
+        <AssociationConnector Association="GhostlyDBModel.FK_StockDailySalesIngredients_Operators_Locations_OperatorLocationId" ManuallyRouted="false" />
+        <AssociationConnector Association="GhostlyDBModel.FK_POI_POR_reconciliation_PurchaseOrderInvoice_PurchaseOrderInvoiceId" ManuallyRouted="false" />
+        <AssociationConnector Association="GhostlyDBModel.FK_POI_POR_reconciliation_PurchaseOrderRequest_PurchaseOrderRequestId" ManuallyRouted="false" />
+        <AssociationConnector Association="GhostlyDBModel.FK_PriceCostVariations_ProcessIngredients_ProcessIngredientId" ManuallyRouted="false" />
+        <AssociationConnector Association="GhostlyDBModel.FK_PriceCostVariations_PurchaseOrderInvoice_PurchaseOrderInvoiceId" ManuallyRouted="false" />
+        <AssociationConnector Association="GhostlyDBModel.FK_PriceCostVariations_Recipes_RecipeId" ManuallyRouted="false" />
+        <AssociationConnector Association="GhostlyDBModel.FK_PriceCostVariations_RecipesIngredients_RecipeVariationId" ManuallyRouted="false" />
+        <AssociationConnector Association="GhostlyDBModel.FK_StockUnespectedVariations_ProcessIngredients_ProcessIngredientId" ManuallyRouted="false" />
+        <AssociationConnector Association="GhostlyDBModel.FK_Suppliers_Location_prof_SupplierGhostlyClassification_SupplierSubCategoryId" ManuallyRouted="false" />
+        <AssociationConnector Association="GhostlyDBModel.FK_Suppliers_norm_SupplierGhostlyClassification_copy_SupplierSubCategoryId" ManuallyRouted="false" />
+        <AssociationConnector Association="GhostlyDBModel.FK_PurchaseOrderInvoice_PurchaseOrderRequest_PurchaseOrderRequestId" ManuallyRouted="false" />
+        <AssociationConnector Association="GhostlyDBModel.FK_PurchaseOrderInvoice_Suppliers_Location_SupplierLocationId" ManuallyRouted="false" />
+        <AssociationConnector Association="GhostlyDBModel.FK_PurchaseOrderInvoice_Suppliers_SupplierId" ManuallyRouted="false" />
+        <AssociationConnector Association="GhostlyDBModel.FK_PurchaseOrderRequest_SupplierId" ManuallyRouted="false" />
+        <AssociationConnector Association="GhostlyDBModel.FK_PurchaseOrderRequest_SupplierLocationId" ManuallyRouted="false" />
+        <AssociationConnector Association="GhostlyDBModel.FK_PurchaseOrderSuggestion_SupplierId" ManuallyRouted="false" />
+        <AssociationConnector Association="GhostlyDBModel.FK_PurchaseOrderSuggestion_SupplierLocation" ManuallyRouted="false" />
+        <AssociationConnector Association="GhostlyDBModel.FK_PurchaseOrderSuggestionAlternatives_PurchaseOrderSuggestion_PurchaseOrderSuggestiontId" ManuallyRouted="false" />
+        <AssociationConnector Association="GhostlyDBModel.FK_PurchaseOrderSuggestionAlternatives_SupplierId" ManuallyRouted="false" />
+        <AssociationConnector Association="GhostlyDBModel.FK_PurchaseOrderSuggestionAlternatives_SupplierLocation" ManuallyRouted="false" />
+        <AssociationConnector Association="GhostlyDBModel.FK_Recipes_StandardRecipes_StandardRecipeId" ManuallyRouted="false" />
+        <AssociationConnector Association="GhostlyDBModel.FK_Sales_Recipes_RecipeId" ManuallyRouted="false" />
+        <AssociationConnector Association="GhostlyDBModel.FK_SaleRecipeModifiers_Sales_SaleId" ManuallyRouted="false" />
+        <AssociationConnector Association="GhostlyDBModel.FK_Suppliers_Location_Suppliers_SupplierId" ManuallyRouted="false" />
+        <AssociationConnector Association="GhostlyDBModel.aspnet_UsersInRoles" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

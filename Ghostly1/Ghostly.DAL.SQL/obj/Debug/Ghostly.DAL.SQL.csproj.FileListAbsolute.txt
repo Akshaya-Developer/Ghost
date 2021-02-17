@@ -1,0 +1,42 @@
+C:\Users\Amit Raj\source\repos\Ghostly1\Ghostly.DAL.SQL\bin\Debug\Ghostly.DAL.SQL.dll.config
+C:\Users\Amit Raj\source\repos\Ghostly1\Ghostly.DAL.SQL\bin\Debug\Ghostly.DAL.SQL.dll
+C:\Users\Amit Raj\source\repos\Ghostly1\Ghostly.DAL.SQL\bin\Debug\Ghostly.DAL.SQL.pdb
+C:\Users\Amit Raj\source\repos\Ghostly1\Ghostly.DAL.SQL\bin\Debug\EntityFramework.dll
+C:\Users\Amit Raj\source\repos\Ghostly1\Ghostly.DAL.SQL\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Amit Raj\source\repos\Ghostly1\Ghostly.DAL.SQL\bin\Debug\Ghostly.Models.dll
+C:\Users\Amit Raj\source\repos\Ghostly1\Ghostly.DAL.SQL\bin\Debug\Ghostly.Models.pdb
+C:\Users\Amit Raj\source\repos\Ghostly1\Ghostly.DAL.SQL\bin\Debug\EntityFramework.xml
+C:\Users\Amit Raj\source\repos\Ghostly1\Ghostly.DAL.SQL\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Amit Raj\source\repos\Ghostly1\Ghostly.DAL.SQL\obj\Debug\Ghostly.DAL.SQL.csprojAssemblyReference.cache
+C:\Users\Amit Raj\source\repos\Ghostly1\Ghostly.DAL.SQL\obj\Debug\Ghostly.DAL.SQL.csproj.CoreCompileInputs.cache
+C:\Users\Amit Raj\source\repos\Ghostly1\Ghostly.DAL.SQL\obj\Debug\Ghostly.DAL.SQL.csproj.CopyComplete
+C:\Users\Amit Raj\source\repos\Ghostly1\Ghostly.DAL.SQL\obj\Debug\Ghostly.DAL.SQL.dll
+C:\Users\Amit Raj\source\repos\Ghostly1\Ghostly.DAL.SQL\obj\Debug\Ghostly.DAL.SQL.pdb
+C:\Users\Devloper\Desktop\my projects\Ghostly1 (1)\Ghostly1\Ghostly.DAL.SQL\bin\Debug\Ghostly.DAL.SQL.dll.config
+C:\Users\Devloper\Desktop\my projects\Ghostly1 (1)\Ghostly1\Ghostly.DAL.SQL\bin\Debug\Ghostly.DAL.SQL.dll
+C:\Users\Devloper\Desktop\my projects\Ghostly1 (1)\Ghostly1\Ghostly.DAL.SQL\bin\Debug\Ghostly.DAL.SQL.pdb
+C:\Users\Devloper\Desktop\my projects\Ghostly1 (1)\Ghostly1\Ghostly.DAL.SQL\bin\Debug\EntityFramework.dll
+C:\Users\Devloper\Desktop\my projects\Ghostly1 (1)\Ghostly1\Ghostly.DAL.SQL\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Devloper\Desktop\my projects\Ghostly1 (1)\Ghostly1\Ghostly.DAL.SQL\bin\Debug\Ghostly.Models.dll
+C:\Users\Devloper\Desktop\my projects\Ghostly1 (1)\Ghostly1\Ghostly.DAL.SQL\bin\Debug\Ghostly.Models.pdb
+C:\Users\Devloper\Desktop\my projects\Ghostly1 (1)\Ghostly1\Ghostly.DAL.SQL\bin\Debug\EntityFramework.xml
+C:\Users\Devloper\Desktop\my projects\Ghostly1 (1)\Ghostly1\Ghostly.DAL.SQL\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Devloper\Desktop\my projects\Ghostly1 (1)\Ghostly1\Ghostly.DAL.SQL\obj\Debug\Ghostly.DAL.SQL.csprojAssemblyReference.cache
+C:\Users\Devloper\Desktop\my projects\Ghostly1 (1)\Ghostly1\Ghostly.DAL.SQL\obj\Debug\Ghostly.DAL.SQL.csproj.CoreCompileInputs.cache
+C:\Users\Devloper\Desktop\my projects\Ghostly1 (1)\Ghostly1\Ghostly.DAL.SQL\obj\Debug\Ghostly.DAL.SQL.csproj.CopyComplete
+C:\Users\Devloper\Desktop\my projects\Ghostly1 (1)\Ghostly1\Ghostly.DAL.SQL\obj\Debug\Ghostly.DAL.SQL.dll
+C:\Users\Devloper\Desktop\my projects\Ghostly1 (1)\Ghostly1\Ghostly.DAL.SQL\obj\Debug\Ghostly.DAL.SQL.pdb
+D:\Ghostly1\Ghostly1\Ghostly.DAL.SQL\bin\Debug\Ghostly.DAL.SQL.dll.config
+D:\Ghostly1\Ghostly1\Ghostly.DAL.SQL\bin\Debug\Ghostly.DAL.SQL.dll
+D:\Ghostly1\Ghostly1\Ghostly.DAL.SQL\bin\Debug\Ghostly.DAL.SQL.pdb
+D:\Ghostly1\Ghostly1\Ghostly.DAL.SQL\bin\Debug\EntityFramework.dll
+D:\Ghostly1\Ghostly1\Ghostly.DAL.SQL\bin\Debug\EntityFramework.SqlServer.dll
+D:\Ghostly1\Ghostly1\Ghostly.DAL.SQL\bin\Debug\Ghostly.Models.dll
+D:\Ghostly1\Ghostly1\Ghostly.DAL.SQL\bin\Debug\Ghostly.Models.pdb
+D:\Ghostly1\Ghostly1\Ghostly.DAL.SQL\bin\Debug\EntityFramework.xml
+D:\Ghostly1\Ghostly1\Ghostly.DAL.SQL\bin\Debug\EntityFramework.SqlServer.xml
+D:\Ghostly1\Ghostly1\Ghostly.DAL.SQL\obj\Debug\Ghostly.DAL.SQL.csprojAssemblyReference.cache
+D:\Ghostly1\Ghostly1\Ghostly.DAL.SQL\obj\Debug\Ghostly.DAL.SQL.csproj.CoreCompileInputs.cache
+D:\Ghostly1\Ghostly1\Ghostly.DAL.SQL\obj\Debug\Ghostly.DAL.SQL.csproj.CopyComplete
+D:\Ghostly1\Ghostly1\Ghostly.DAL.SQL\obj\Debug\Ghostly.DAL.SQL.dll
+D:\Ghostly1\Ghostly1\Ghostly.DAL.SQL\obj\Debug\Ghostly.DAL.SQL.pdb

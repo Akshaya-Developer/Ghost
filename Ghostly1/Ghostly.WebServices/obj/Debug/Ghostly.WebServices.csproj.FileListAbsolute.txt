@@ -1,0 +1,17 @@
+C:\Users\Amit Raj\source\repos\Ghostly1\Ghostly.WebServices\bin\Debug\Ghostly.WebServices.dll
+C:\Users\Amit Raj\source\repos\Ghostly1\Ghostly.WebServices\bin\Debug\Ghostly.WebServices.pdb
+C:\Users\Amit Raj\source\repos\Ghostly1\Ghostly.WebServices\obj\Debug\Ghostly.WebServices.csproj.CoreCompileInputs.cache
+C:\Users\Amit Raj\source\repos\Ghostly1\Ghostly.WebServices\obj\Debug\Ghostly.WebServices.dll
+C:\Users\Amit Raj\source\repos\Ghostly1\Ghostly.WebServices\obj\Debug\Ghostly.WebServices.pdb
+C:\Users\Devloper\Desktop\my projects\Ghostly1 (1)\Ghostly1\Ghostly.WebServices\bin\Debug\Ghostly.WebServices.dll
+C:\Users\Devloper\Desktop\my projects\Ghostly1 (1)\Ghostly1\Ghostly.WebServices\bin\Debug\Ghostly.WebServices.pdb
+C:\Users\Devloper\Desktop\my projects\Ghostly1 (1)\Ghostly1\Ghostly.WebServices\obj\Debug\Ghostly.WebServices.csprojAssemblyReference.cache
+C:\Users\Devloper\Desktop\my projects\Ghostly1 (1)\Ghostly1\Ghostly.WebServices\obj\Debug\Ghostly.WebServices.csproj.CoreCompileInputs.cache
+C:\Users\Devloper\Desktop\my projects\Ghostly1 (1)\Ghostly1\Ghostly.WebServices\obj\Debug\Ghostly.WebServices.dll
+C:\Users\Devloper\Desktop\my projects\Ghostly1 (1)\Ghostly1\Ghostly.WebServices\obj\Debug\Ghostly.WebServices.pdb
+D:\Ghostly1\Ghostly1\Ghostly.WebServices\bin\Debug\Ghostly.WebServices.dll
+D:\Ghostly1\Ghostly1\Ghostly.WebServices\bin\Debug\Ghostly.WebServices.pdb
+D:\Ghostly1\Ghostly1\Ghostly.WebServices\obj\Debug\Ghostly.WebServices.csprojAssemblyReference.cache
+D:\Ghostly1\Ghostly1\Ghostly.WebServices\obj\Debug\Ghostly.WebServices.csproj.CoreCompileInputs.cache
+D:\Ghostly1\Ghostly1\Ghostly.WebServices\obj\Debug\Ghostly.WebServices.dll
+D:\Ghostly1\Ghostly1\Ghostly.WebServices\obj\Debug\Ghostly.WebServices.pdb

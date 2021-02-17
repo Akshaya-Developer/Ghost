@@ -1,0 +1,86 @@
+C:\Users\Amit Raj\source\repos\Ghostly1\Ghostly.Business\bin\Debug\Ghostly.Business.dll.config
+C:\Users\Amit Raj\source\repos\Ghostly1\Ghostly.Business\bin\Debug\Ghostly.Business.dll
+C:\Users\Amit Raj\source\repos\Ghostly1\Ghostly.Business\bin\Debug\Ghostly.Business.pdb
+C:\Users\Amit Raj\source\repos\Ghostly1\Ghostly.Business\bin\Debug\EntityFramework.dll
+C:\Users\Amit Raj\source\repos\Ghostly1\Ghostly.Business\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Amit Raj\source\repos\Ghostly1\Ghostly.Business\bin\Debug\Ghostly.DAL.SQL.dll
+C:\Users\Amit Raj\source\repos\Ghostly1\Ghostly.Business\bin\Debug\Ghostly.Models.dll
+C:\Users\Amit Raj\source\repos\Ghostly1\Ghostly.Business\bin\Debug\Ghostly.WebServices.dll
+C:\Users\Amit Raj\source\repos\Ghostly1\Ghostly.Business\bin\Debug\Microsoft.Web.Infrastructure.dll
+C:\Users\Amit Raj\source\repos\Ghostly1\Ghostly.Business\bin\Debug\Ninject.dll
+C:\Users\Amit Raj\source\repos\Ghostly1\Ghostly.Business\bin\Debug\Ninject.Web.Common.dll
+C:\Users\Amit Raj\source\repos\Ghostly1\Ghostly.Business\bin\Debug\Ninject.Web.Common.WebHost.dll
+C:\Users\Amit Raj\source\repos\Ghostly1\Ghostly.Business\bin\Debug\Ninject.Web.Mvc.dll
+C:\Users\Amit Raj\source\repos\Ghostly1\Ghostly.Business\bin\Debug\System.Web.Helpers.dll
+C:\Users\Amit Raj\source\repos\Ghostly1\Ghostly.Business\bin\Debug\System.Web.Mvc.dll
+C:\Users\Amit Raj\source\repos\Ghostly1\Ghostly.Business\bin\Debug\System.Web.Razor.dll
+C:\Users\Amit Raj\source\repos\Ghostly1\Ghostly.Business\bin\Debug\System.Web.WebPages.Deployment.dll
+C:\Users\Amit Raj\source\repos\Ghostly1\Ghostly.Business\bin\Debug\System.Web.WebPages.dll
+C:\Users\Amit Raj\source\repos\Ghostly1\Ghostly.Business\bin\Debug\System.Web.WebPages.Razor.dll
+C:\Users\Amit Raj\source\repos\Ghostly1\Ghostly.Business\bin\Debug\Ghostly.DAL.SQL.pdb
+C:\Users\Amit Raj\source\repos\Ghostly1\Ghostly.Business\bin\Debug\Ghostly.DAL.SQL.dll.config
+C:\Users\Amit Raj\source\repos\Ghostly1\Ghostly.Business\bin\Debug\Ghostly.Models.pdb
+C:\Users\Amit Raj\source\repos\Ghostly1\Ghostly.Business\bin\Debug\Ghostly.WebServices.pdb
+C:\Users\Amit Raj\source\repos\Ghostly1\Ghostly.Business\bin\Debug\EntityFramework.xml
+C:\Users\Amit Raj\source\repos\Ghostly1\Ghostly.Business\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Amit Raj\source\repos\Ghostly1\Ghostly.Business\bin\Debug\Ninject.xml
+C:\Users\Amit Raj\source\repos\Ghostly1\Ghostly.Business\bin\Debug\Ninject.Web.Common.xml
+C:\Users\Amit Raj\source\repos\Ghostly1\Ghostly.Business\bin\Debug\Ninject.Web.Common.WebHost.xml
+C:\Users\Amit Raj\source\repos\Ghostly1\Ghostly.Business\bin\Debug\Ninject.Web.Mvc.xml
+C:\Users\Amit Raj\source\repos\Ghostly1\Ghostly.Business\bin\Debug\System.Web.Helpers.xml
+C:\Users\Amit Raj\source\repos\Ghostly1\Ghostly.Business\bin\Debug\System.Web.Mvc.xml
+C:\Users\Amit Raj\source\repos\Ghostly1\Ghostly.Business\bin\Debug\System.Web.Razor.xml
+C:\Users\Amit Raj\source\repos\Ghostly1\Ghostly.Business\bin\Debug\System.Web.WebPages.xml
+C:\Users\Amit Raj\source\repos\Ghostly1\Ghostly.Business\bin\Debug\System.Web.WebPages.Deployment.xml
+C:\Users\Amit Raj\source\repos\Ghostly1\Ghostly.Business\bin\Debug\System.Web.WebPages.Razor.xml
+C:\Users\Amit Raj\source\repos\Ghostly1\Ghostly.Business\obj\Debug\Ghostly.Business.csprojAssemblyReference.cache
+C:\Users\Amit Raj\source\repos\Ghostly1\Ghostly.Business\obj\Debug\Ghostly.Business.csproj.CoreCompileInputs.cache
+C:\Users\Amit Raj\source\repos\Ghostly1\Ghostly.Business\obj\Debug\Ghostly.Business.csproj.CopyComplete
+C:\Users\Amit Raj\source\repos\Ghostly1\Ghostly.Business\obj\Debug\Ghostly.Business.dll
+C:\Users\Amit Raj\source\repos\Ghostly1\Ghostly.Business\obj\Debug\Ghostly.Business.pdb
+C:\Users\Devloper\Desktop\my projects\Ghostly1 (1)\Ghostly1\Ghostly.Business\bin\Debug\Ghostly.Business.dll.config
+C:\Users\Devloper\Desktop\my projects\Ghostly1 (1)\Ghostly1\Ghostly.Business\bin\Debug\Ghostly.Business.dll
+C:\Users\Devloper\Desktop\my projects\Ghostly1 (1)\Ghostly1\Ghostly.Business\bin\Debug\Ghostly.Business.pdb
+C:\Users\Devloper\Desktop\my projects\Ghostly1 (1)\Ghostly1\Ghostly.Business\bin\Debug\AutoMapper.dll
+C:\Users\Devloper\Desktop\my projects\Ghostly1 (1)\Ghostly1\Ghostly.Business\bin\Debug\EntityFramework.dll
+C:\Users\Devloper\Desktop\my projects\Ghostly1 (1)\Ghostly1\Ghostly.Business\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Devloper\Desktop\my projects\Ghostly1 (1)\Ghostly1\Ghostly.Business\bin\Debug\Ghostly.DAL.SQL.dll
+C:\Users\Devloper\Desktop\my projects\Ghostly1 (1)\Ghostly1\Ghostly.Business\bin\Debug\Ghostly.Models.dll
+C:\Users\Devloper\Desktop\my projects\Ghostly1 (1)\Ghostly1\Ghostly.Business\bin\Debug\Ghostly.WebServices.dll
+C:\Users\Devloper\Desktop\my projects\Ghostly1 (1)\Ghostly1\Ghostly.Business\bin\Debug\Microsoft.Web.Infrastructure.dll
+C:\Users\Devloper\Desktop\my projects\Ghostly1 (1)\Ghostly1\Ghostly.Business\bin\Debug\Ninject.dll
+C:\Users\Devloper\Desktop\my projects\Ghostly1 (1)\Ghostly1\Ghostly.Business\bin\Debug\Ninject.Web.Common.dll
+C:\Users\Devloper\Desktop\my projects\Ghostly1 (1)\Ghostly1\Ghostly.Business\bin\Debug\Ninject.Web.Common.WebHost.dll
+C:\Users\Devloper\Desktop\my projects\Ghostly1 (1)\Ghostly1\Ghostly.Business\bin\Debug\Ninject.Web.Mvc.dll
+C:\Users\Devloper\Desktop\my projects\Ghostly1 (1)\Ghostly1\Ghostly.Business\bin\Debug\System.Web.Helpers.dll
+C:\Users\Devloper\Desktop\my projects\Ghostly1 (1)\Ghostly1\Ghostly.Business\bin\Debug\System.Web.Mvc.dll
+C:\Users\Devloper\Desktop\my projects\Ghostly1 (1)\Ghostly1\Ghostly.Business\bin\Debug\System.Web.Razor.dll
+C:\Users\Devloper\Desktop\my projects\Ghostly1 (1)\Ghostly1\Ghostly.Business\bin\Debug\System.Web.WebPages.Deployment.dll
+C:\Users\Devloper\Desktop\my projects\Ghostly1 (1)\Ghostly1\Ghostly.Business\bin\Debug\System.Web.WebPages.dll
+C:\Users\Devloper\Desktop\my projects\Ghostly1 (1)\Ghostly1\Ghostly.Business\bin\Debug\System.Web.WebPages.Razor.dll
+C:\Users\Devloper\Desktop\my projects\Ghostly1 (1)\Ghostly1\Ghostly.Business\bin\Debug\Ghostly.DAL.SQL.pdb
+C:\Users\Devloper\Desktop\my projects\Ghostly1 (1)\Ghostly1\Ghostly.Business\bin\Debug\Ghostly.DAL.SQL.dll.config
+C:\Users\Devloper\Desktop\my projects\Ghostly1 (1)\Ghostly1\Ghostly.Business\bin\Debug\Ghostly.Models.pdb
+C:\Users\Devloper\Desktop\my projects\Ghostly1 (1)\Ghostly1\Ghostly.Business\bin\Debug\Ghostly.WebServices.pdb
+C:\Users\Devloper\Desktop\my projects\Ghostly1 (1)\Ghostly1\Ghostly.Business\bin\Debug\AutoMapper.xml
+C:\Users\Devloper\Desktop\my projects\Ghostly1 (1)\Ghostly1\Ghostly.Business\bin\Debug\EntityFramework.xml
+C:\Users\Devloper\Desktop\my projects\Ghostly1 (1)\Ghostly1\Ghostly.Business\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Devloper\Desktop\my projects\Ghostly1 (1)\Ghostly1\Ghostly.Business\bin\Debug\Ninject.xml
+C:\Users\Devloper\Desktop\my projects\Ghostly1 (1)\Ghostly1\Ghostly.Business\bin\Debug\Ninject.Web.Common.xml
+C:\Users\Devloper\Desktop\my projects\Ghostly1 (1)\Ghostly1\Ghostly.Business\bin\Debug\Ninject.Web.Common.WebHost.xml
+C:\Users\Devloper\Desktop\my projects\Ghostly1 (1)\Ghostly1\Ghostly.Business\bin\Debug\Ninject.Web.Mvc.xml
+C:\Users\Devloper\Desktop\my projects\Ghostly1 (1)\Ghostly1\Ghostly.Business\bin\Debug\System.Web.Helpers.xml
+C:\Users\Devloper\Desktop\my projects\Ghostly1 (1)\Ghostly1\Ghostly.Business\bin\Debug\System.Web.Mvc.xml
+C:\Users\Devloper\Desktop\my projects\Ghostly1 (1)\Ghostly1\Ghostly.Business\bin\Debug\System.Web.Razor.xml
+C:\Users\Devloper\Desktop\my projects\Ghostly1 (1)\Ghostly1\Ghostly.Business\bin\Debug\System.Web.WebPages.xml
+C:\Users\Devloper\Desktop\my projects\Ghostly1 (1)\Ghostly1\Ghostly.Business\bin\Debug\System.Web.WebPages.Deployment.xml
+C:\Users\Devloper\Desktop\my projects\Ghostly1 (1)\Ghostly1\Ghostly.Business\bin\Debug\System.Web.WebPages.Razor.xml
+C:\Users\Devloper\Desktop\my projects\Ghostly1 (1)\Ghostly1\Ghostly.Business\obj\Debug\Ghostly.Business.csprojAssemblyReference.cache
+C:\Users\Devloper\Desktop\my projects\Ghostly1 (1)\Ghostly1\Ghostly.Business\obj\Debug\Ghostly.Business.csproj.CoreCompileInputs.cache
+C:\Users\Devloper\Desktop\my projects\Ghostly1 (1)\Ghostly1\Ghostly.Business\obj\Debug\Ghostly.Business.csproj.CopyComplete
+C:\Users\Devloper\Desktop\my projects\Ghostly1 (1)\Ghostly1\Ghostly.Business\obj\Debug\Ghostly.Business.dll
+C:\Users\Devloper\Desktop\my projects\Ghostly1 (1)\Ghostly1\Ghostly.Business\obj\Debug\Ghostly.Business.pdb
+D:\Ghostly1\Ghostly1\Ghostly.Business\obj\Debug\Ghostly.Business.csprojAssemblyReference.cache
+D:\Ghostly1\Ghostly1\Ghostly.Business\obj\Debug\Ghostly.Business.csproj.CoreCompileInputs.cache
+D:\Ghostly1\Ghostly1\Ghostly.Business\obj\Debug\Ghostly.Business.dll
+D:\Ghostly1\Ghostly1\Ghostly.Business\obj\Debug\Ghostly.Business.pdb

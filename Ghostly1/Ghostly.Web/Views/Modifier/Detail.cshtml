@@ -1,0 +1,131 @@
+﻿@model Ghostly.Models.ModifierModel
+
+@{
+    ViewBag.Title = "Detail";
+}
+<center>
+    <h2>Detail</h2>
+
+  
+
+        <hr />
+        <div class="dl-horizontal">
+            <div class="row">
+                <dt class="col-md-2">
+                    @Html.DisplayNameFor(model => model.ModifierId)
+                </dt>
+
+                <dd class="col-md-2">
+                    @Html.DisplayFor(model => model.ModifierId)
+                </dd>
+            </div>
+            <div class="row">
+                <dt class="col-md-2">
+                    @Html.DisplayNameFor(model => model.RecipeId)
+                </dt>
+
+                <dd class="col-md-2">
+                    @Html.DisplayFor(model => model.RecipeId)
+                </dd>
+            </div>
+            <div class="row">
+
+                <dt class="col-md-2">
+                    @Html.DisplayNameFor(model => model.IngredientId)
+                </dt>
+
+                <dd class="col-md-2">
+                    @Html.DisplayFor(model => model.IngredientId)
+                </dd>
+            </div>
+            <div class="row">
+                <dt class="col-md-2 ">
+                    @Html.DisplayNameFor(model => model.Quantity)
+                </dt>
+
+                <dd class="col-md-2 text-right">
+                    @Html.DisplayFor(model => model.Quantity)
+                </dd>
+            </div>
+            <div class="row">
+                <dt class="col-md-2">
+                    @Html.DisplayNameFor(model => model.UnitType)
+                </dt>
+
+                <dd class="col-md-2">
+                    @Html.DisplayFor(model => model.UnitType)
+                </dd>
+            </div>
+            <div class="row">
+                <dt class="col-md-2">
+                    @Html.DisplayNameFor(model => model.OrderType)
+                </dt>
+
+                <dd class="col-md-2">
+                    @Html.DisplayFor(model => model.OrderType)
+                </dd>
+            </div>
+            <div class="row">
+                <dt class="col-md-2">
+                    @Html.DisplayNameFor(model => model.CurrentPrice)
+                </dt>
+
+                <dd class="col-md-2">
+                    @Html.DisplayFor(model => model.CurrentPrice)
+                </dd>
+            </div>
+            <div class="row">
+                <dt class="col-md-2">
+                    @Html.DisplayNameFor(model => model.LastCost)
+                </dt>
+
+                <dd class="col-md-2">
+                    @Html.DisplayFor(model => model.LastCost)
+                </dd>
+            </div>
+            <div class="row">
+                <dt class="col-md-2">
+                    @Html.DisplayNameFor(model => model.date_creation)
+                </dt>
+
+                <dd class="col-md-2">
+                    @Html.DisplayFor(model => model.date_creation)
+                </dd>
+            </div>
+            <div class="row">
+                <dt class="col-md-2">
+                    @Html.DisplayNameFor(model => model.created_by)
+                </dt>
+
+                <dd class="col-md-2">
+                    @Html.DisplayFor(model => model.created_by)
+                </dd>
+            </div>
+            <div class="row">
+                <dt class="col-md-2">
+                    @Html.DisplayNameFor(model => model.modified_by)
+                </dt>
+
+                <dd class="col-md-2">
+                    @Html.DisplayFor(model => model.modified_by)
+                </dd>
+            </div>
+
+            <div class="row">
+                <dt class="col-md-2">
+                    @Html.DisplayNameFor(model => model.date_modified)
+                </dt>
+
+                <dd class="col-md-2">
+                    @Html.DisplayFor(model => model.date_modified)
+                </dd>
+
+        </div>
+    </div>
+</center>
+    <p>
+        @*@Html.ActionLink("Edit", "Edit", new { /* id = Model.PrimaryKey */ }) |*@
+        @Html.ActionLink("Back to List", "GetAllModifiers", new { @class = " btn btn-primary" })
+        
+    </p>
+</center>
